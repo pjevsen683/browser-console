@@ -1,0 +1,7 @@
+node_modules/
+server.pid
+# copied in from node_modules by ./sync-vendor.sh
+public/vendor/
+# raw output from the asset server; only the notes (*.md) are kept
+asset-generation/generated/*
+!asset-generation/generated/*.md

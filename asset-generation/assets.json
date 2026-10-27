@@ -1,0 +1,57 @@
+{
+  "style": "cute stylized cartoon game asset, soft pastel colors, clean simple shapes, isometric three-quarter view from the front and 30 degrees above, the whole object visible",
+  "assets": {
+    "penguin": {
+      "kind": "prop",
+      "prompt": "a chubby cartoon penguin standing upright, flippers slightly out, big round eyes, 3D render, soft clay shading, Pixar style toy figure"
+    },
+    "seal": {
+      "kind": "prop",
+      "prompt": "a round cartoon harbor seal sitting upright on its tail, front flippers out, whiskers, big dark eyes, 3D render, soft clay shading, Pixar style toy figure"
+    },
+    "polarbear": {
+      "kind": "prop",
+      "prompt": "a chunky cartoon polar bear cub standing on its hind legs, arms out, small round ears, 3D render, soft clay shading, Pixar style toy figure"
+    },
+    "walrus": {
+      "kind": "prop",
+      "prompt": "a plump cartoon walrus sitting upright, two white tusks, bushy moustache, 3D render, soft clay shading, Pixar style toy figure"
+    },
+    "reindeer": {
+      "kind": "prop",
+      "prompt": "a chubby cartoon reindeer standing on its hind legs, small antlers, red nose, 3D render, soft clay shading, Pixar style toy figure"
+    },
+    "arcticfox": {
+      "kind": "prop",
+      "prompt": "a fluffy white cartoon arctic fox standing on its hind legs, big bushy tail wrapped around its feet, 3D render, soft clay shading, Pixar style toy figure"
+    },
+    "hare": {
+      "kind": "prop",
+      "prompt": "a round white cartoon snow hare standing upright, long ears, big feet, 3D render, soft clay shading, Pixar style toy figure"
+    },
+    "puffin": {
+      "kind": "prop",
+      "prompt": "a chubby cartoon atlantic puffin standing upright, black back and black head cap, white belly and white face cheeks, big triangular orange red and yellow striped beak, bright orange feet, 3D render, soft clay shading, Pixar style toy figure"
+    },
+    "muskox": {
+      "kind": "prop",
+      "prompt": "a round shaggy cartoon musk ox standing on its hind legs, curled horns, long brown fur, 3D render, soft clay shading, Pixar style toy figure"
+    },
+    "eagle": {
+      "kind": "prop",
+      "prompt": "a chubby cartoon white-tailed sea eagle standing upright, dark brown feathered body and wings, pale cream head, white tail feathers, big hooked yellow beak, yellow talons, 3D render, soft clay shading, Pixar style toy figure"
+    },
+    "floe": {
+      "kind": "prop",
+      "prompt": "a round flat ice floe, thick slab of white and pale blue ice with a snowy top and jagged edges, seen from above at 45 degrees"
+    },
+    "narwhal": {
+      "kind": "prop",
+      "prompt": "a chubby cartoon narwhal sitting upright on its tail fin, blue-grey spotted body, pale belly, one long straight spiral tusk pointing up from its forehead, small front flippers, big round eyes, 3D render, soft clay shading, Pixar style toy figure"
+    },
+    "lemming": {
+      "kind": "prop",
+      "prompt": "a round fluffy cartoon lemming standing upright, orange-brown and black fur, cream belly, tiny round ears, small paws, big round eyes, 3D render, soft clay shading, Pixar style toy figure"
+    }
+  }
+}

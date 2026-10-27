@@ -1,0 +1,1967 @@
+[
+ {
+  "id": "q001",
+  "cat": "Denmark",
+  "q": "Which Danish landmark consists of a massive, ancient burial mound?",
+  "a": [
+   "Jelling Mounds",
+   "Roskilde Cathedral",
+   "Kronborg Castle",
+   "Thingvellir"
+  ],
+  "correct": 0,
+  "imgPrompt": "A misty, green landscape with rolling hills.",
+  "img": "quiz/q001.webp",
+  "voice": true
+ },
+ {
+  "id": "q002",
+  "cat": "Denmark",
+  "q": "What is the main ingredient in the traditional Danish open-faced sandwich called Smørrebrød?",
+  "a": [
+   "Rice",
+   "Rye bread",
+   "Wheat flour",
+   "Potatoes"
+  ],
+  "correct": 1,
+  "imgPrompt": "A wooden cutting board and a knife.",
+  "img": "quiz/q002.webp",
+  "voice": true
+ },
+ {
+  "id": "q003",
+  "cat": "Denmark",
+  "q": "Which famous Danish author wrote the fairy tale 'The Little Mermaid'?",
+  "a": [
+   "Karen Blixen",
+   "Hans Christian Andersen",
+   "Søren Kierkegaard",
+   "Niels Bohr"
+  ],
+  "correct": 1,
+  "imgPrompt": "An old inkwell and a quill pen.",
+  "img": "quiz/q003.webp",
+  "voice": true
+ },
+ {
+  "id": "q004",
+  "cat": "Denmark",
+  "q": "Which Danish city serves as the country's capital?",
+  "a": [
+   "Aarhus",
+   "Odense",
+   "Copenhagen",
+   "Aalborg"
+  ],
+  "correct": 2,
+  "imgPrompt": "A colorful street with cobblestones.",
+  "img": "quiz/q004.webp",
+  "voice": true
+ },
+ {
+  "id": "q005",
+  "cat": "Denmark",
+  "q": "The concept of 'Hygge' is most closely associated with what feeling?",
+  "a": [
+   "Excitement",
+   "Cozy comfort",
+   "Extreme fear",
+   "Intense anger"
+  ],
+  "correct": 1,
+  "imgPrompt": "A warm, glowing fireplace.",
+  "img": "quiz/q005.webp",
+  "voice": true
+ },
+ {
+  "id": "q006",
+  "cat": "Denmark",
+  "q": "Which Danish physicist developed the model of the atom?",
+  "a": [
+   "Niels Bohr",
+   "Tycho Brahe",
+   "Hans Christian Ørsted",
+   "Ludvig Holberg"
+  ],
+  "correct": 0,
+  "imgPrompt": "A chalkboard filled with complex equations.",
+  "img": "quiz/q006.webp",
+  "voice": true
+ },
+ {
+  "id": "q007",
+  "cat": "Denmark",
+  "q": "What is the name of the famous colorful waterfront district in Copenhagen?",
+  "a": [
+   "Nyhavn",
+   "Vesterbro",
+   "Nørrebro",
+   "Østerbro"
+  ],
+  "correct": 0,
+  "imgPrompt": "A canal with small boats.",
+  "img": "quiz/q007.webp",
+  "voice": true
+ },
+ {
+  "id": "q008",
+  "cat": "Denmark",
+  "q": "Which iconic toy brand was founded in Denmark in 1932?",
+  "a": [
+   "Hasbro",
+   "LEGO",
+   "Mattel",
+   "Playmobil"
+  ],
+  "correct": 1,
+  "imgPrompt": "A bright, empty playroom floor.",
+  "img": "quiz/q008.webp",
+  "voice": true
+ },
+ {
+  "id": "q009",
+  "cat": "Denmark",
+  "q": "Which Danish monarch is famously known as the founder of the Kalmar Union?",
+  "a": [
+   "Margrete I",
+   "Christian IV",
+   "Valdemar II",
+   "Sweyn Forkbeard"
+  ],
+  "correct": 0,
+  "imgPrompt": "A medieval golden crown on a velvet cushion",
+  "img": "quiz/q009.webp",
+  "voice": true
+ },
+ {
+  "id": "q010",
+  "cat": "Denmark",
+  "q": "What is the name of the narrow strait separating Denmark and Sweden?",
+  "a": [
+   "The Sound",
+   "The Baltic Sea",
+   "The North Sea",
+   "The Kattegat"
+  ],
+  "correct": 0,
+  "imgPrompt": "A wide blue ocean horizon",
+  "img": "quiz/q010.webp",
+  "voice": true
+ },
+ {
+  "id": "q011",
+  "cat": "Denmark",
+  "q": "Who directed the classic Danish film 'Ordet'?",
+  "a": [
+   "Carl Theodor Dreyer",
+   "Lars von Trier",
+   "Bille August",
+   "Susanne Bier"
+  ],
+  "correct": 0,
+  "imgPrompt": "A vintage 35mm film projector",
+  "img": "quiz/q011.webp",
+  "voice": true
+ },
+ {
+  "id": "q012",
+  "cat": "Denmark",
+  "q": "In which Danish city is the headquarters of the LEGO Group located?",
+  "a": [
+   "Billund",
+   "Aarhus",
+   "Odense",
+   "Esbjerg"
+  ],
+  "correct": 0,
+  "imgPrompt": "A modern office building exterior",
+  "img": "quiz/q012.webp",
+  "voice": true
+ },
+ {
+  "id": "q013",
+  "cat": "Denmark",
+  "q": "What is the traditional name for the Danish midwinter celebration?",
+  "a": [
+   "Jul",
+   "Fastelavn",
+   "Sankt Hans",
+   "Fællessang"
+  ],
+  "correct": 0,
+  "imgPrompt": "A lit candle on a wooden table",
+  "img": "quiz/q013.webp",
+  "voice": true
+ },
+ {
+  "id": "q014",
+  "cat": "Denmark",
+  "q": "Which Danish philosopher is famous for the work 'Fear and Trembling'?",
+  "a": [
+   "Søren Kierkegaard",
+   "Hans Christian Andersen",
+   "Niels Bohr",
+   "Ludvig Holberg"
+  ],
+  "correct": 0,
+  "imgPrompt": "An old inkwell and quill pen",
+  "img": "quiz/q014.webp",
+  "voice": true
+ },
+ {
+  "id": "q015",
+  "cat": "Denmark",
+  "q": "Which island is the largest in Denmark?",
+  "a": [
+   "Zealand",
+   "Funen",
+   "Jutland",
+   "Lolland"
+  ],
+  "correct": 0,
+  "imgPrompt": "A map of Northern Europe",
+  "img": "quiz/q015.webp",
+  "voice": true
+ },
+ {
+  "id": "q016",
+  "cat": "Denmark",
+  "q": "What is the name of the Danish royal residence in Copenhagen?",
+  "a": [
+   "Amalienborg",
+   "Rosenborg",
+   "Christiansborg",
+   "Frederiksberg"
+  ],
+  "correct": 0,
+  "imgPrompt": "A golden crown",
+  "img": "quiz/q016.webp",
+  "voice": true
+ },
+ {
+  "id": "q017",
+  "cat": "Denmark",
+  "q": "Which Danish designer created the iconic Egg Chair?",
+  "a": [
+   "Arne Jacobsen",
+   "Verner Panton",
+   "Hans Wegner",
+   "Poul Henningsen"
+  ],
+  "correct": 0,
+  "imgPrompt": "A drafting compass and ruler",
+  "img": "quiz/q017.webp",
+  "voice": true
+ },
+ {
+  "id": "q018",
+  "cat": "Denmark",
+  "q": "What is the primary language spoken in Denmark?",
+  "a": [
+   "Danish",
+   "Norwegian",
+   "Swedish",
+   "German"
+  ],
+  "correct": 0,
+  "imgPrompt": "An open dictionary",
+  "img": "quiz/q018.webp",
+  "voice": true
+ },
+ {
+  "id": "q019",
+  "cat": "Denmark",
+  "q": "Roughly which centuries make up the Viking Age?",
+  "a": [
+   "8th to 11th",
+   "12th to 15th",
+   "5th to 8th",
+   "15th to 18th"
+  ],
+  "correct": 0,
+  "imgPrompt": "A wooden shield",
+  "img": "quiz/q019.webp",
+  "voice": true
+ },
+ {
+  "id": "q020",
+  "cat": "Denmark",
+  "q": "What is the Danish word for sausage?",
+  "a": [
+   "Wurst",
+   "Pølse",
+   "Saucisse",
+   "Salchicha"
+  ],
+  "correct": 1,
+  "imgPrompt": "A mustard jar",
+  "img": "quiz/q020.webp",
+  "voice": true
+ },
+ {
+  "id": "q021",
+  "cat": "Animals",
+  "q": "Which bird is known for its ability to mimic almost any sound?",
+  "a": [
+   "Eagle",
+   "Lyrebird",
+   "Penguin",
+   "Falcon"
+  ],
+  "correct": 1,
+  "imgPrompt": "A dense, green rainforest canopy.",
+  "img": "quiz/q021.webp",
+  "voice": true
+ },
+ {
+  "id": "q022",
+  "cat": "Animals",
+  "q": "What is the only mammal capable of true powered flight?",
+  "a": [
+   "Flying squirrel",
+   "Sugar glider",
+   "Bat",
+   "Colugo"
+  ],
+  "correct": 2,
+  "imgPrompt": "A moonlit night sky over a forest.",
+  "img": "quiz/q022.webp",
+  "voice": true
+ },
+ {
+  "id": "q023",
+  "cat": "Animals",
+  "q": "In which ocean would you find the Great Barrier Reef?",
+  "a": [
+   "Atlantic Ocean",
+   "Indian Ocean",
+   "Pacific Ocean",
+   "Arctic Ocean"
+  ],
+  "correct": 2,
+  "imgPrompt": "a lush nature scene with various animals",
+  "img": "quiz/q023.webp",
+  "voice": true
+ },
+ {
+  "id": "q024",
+  "cat": "Animals",
+  "q": "How many hearts does an octopus have?",
+  "a": [
+   "One",
+   "Two",
+   "Three",
+   "Four"
+  ],
+  "correct": 2,
+  "imgPrompt": "Deep blue underwater scenery.",
+  "img": "quiz/q024.webp",
+  "voice": true
+ },
+ {
+  "id": "q025",
+  "cat": "Animals",
+  "q": "Which land animal has the longest gestation period?",
+  "a": [
+   "Elephant",
+   "Giraffe",
+   "Rhino",
+   "Hippopotamus"
+  ],
+  "correct": 0,
+  "imgPrompt": "A wide African savanna landscape.",
+  "img": "quiz/q025.webp",
+  "voice": true
+ },
+ {
+  "id": "q026",
+  "cat": "Animals",
+  "q": "What type of animal is a Komodo dragon?",
+  "a": [
+   "Mammal",
+   "Bird",
+   "Lizard",
+   "Amphibian"
+  ],
+  "correct": 2,
+  "imgPrompt": "Volcanic rocks and tropical foliage.",
+  "img": "quiz/q026.webp",
+  "voice": true
+ },
+ {
+  "id": "q027",
+  "cat": "Animals",
+  "q": "Which tree species is known for producing acorns?",
+  "a": [
+   "Pine",
+   "Maple",
+   "Oak",
+   "Birch"
+  ],
+  "correct": 2,
+  "imgPrompt": "A peaceful woodland path.",
+  "img": "quiz/q027.webp",
+  "voice": true
+ },
+ {
+  "id": "q028",
+  "cat": "Animals",
+  "q": "What is the primary diet of a giant panda?",
+  "a": [
+   "Fish",
+   "Bamboo",
+   "Insects",
+   "Fruit"
+  ],
+  "correct": 1,
+  "imgPrompt": "Mist rolling over high mountains.",
+  "img": "quiz/q028.webp",
+  "voice": true
+ },
+ {
+  "id": "q029",
+  "cat": "Animals",
+  "q": "What is the largest species of big cat in the world?",
+  "a": [
+   "African Lion",
+   "Siberian Tiger",
+   "Jaguar",
+   "Leopard"
+  ],
+  "correct": 1,
+  "imgPrompt": "a lush nature scene with various animals",
+  "img": "quiz/q029.webp",
+  "voice": true
+ },
+ {
+  "id": "q030",
+  "cat": "Animals",
+  "q": "Which flightless bird is native to the island of New Zealand?",
+  "a": [
+   "Ostrich",
+   "Emu",
+   "Kiwi",
+   "Cassowary"
+  ],
+  "correct": 2,
+  "imgPrompt": "A lush, green fern forest",
+  "img": "quiz/q030.webp",
+  "voice": true
+ },
+ {
+  "id": "q031",
+  "cat": "Animals",
+  "q": "What type of creature is a sea anemone?",
+  "a": [
+   "Mollusk",
+   "Cnidarian",
+   "Crustacean",
+   "Fish"
+  ],
+  "correct": 1,
+  "imgPrompt": "Sunlight filtering through tropical ocean water",
+  "img": "quiz/q031.webp",
+  "voice": true
+ },
+ {
+  "id": "q032",
+  "cat": "Animals",
+  "q": "Which mammal is known for having a pouch to carry young?",
+  "a": [
+   "Otter",
+   "Beaver",
+   "Sloth",
+   "Kangaroo"
+  ],
+  "correct": 3,
+  "imgPrompt": "An Australian outback landscape at sunset",
+  "img": "quiz/q032.webp",
+  "voice": true
+ },
+ {
+  "id": "q033",
+  "cat": "Animals",
+  "q": "What is the fastest land animal in the world?",
+  "a": [
+   "Cheetah",
+   "Pronghorn",
+   "Gazelle",
+   "Lion"
+  ],
+  "correct": 0,
+  "imgPrompt": "A wide, golden African savanna",
+  "img": "quiz/q033.webp",
+  "voice": true
+ },
+ {
+  "id": "q034",
+  "cat": "Animals",
+  "q": "Which animal is famous for its ability to change skin color?",
+  "a": [
+   "Gecko",
+   "Chameleon",
+   "Iguana",
+   "Salamander"
+  ],
+  "correct": 1,
+  "imgPrompt": "A tropical jungle canopy with bright flowers",
+  "img": "quiz/q034.webp",
+  "voice": true
+ },
+ {
+  "id": "q035",
+  "cat": "Animals",
+  "q": "What is the largest mammal alive on Earth today?",
+  "a": [
+   "Whale Shark",
+   "Blue Whale",
+   "Colossal Squid",
+   "Elephant"
+  ],
+  "correct": 1,
+  "imgPrompt": "a lush nature scene with various animals",
+  "img": "quiz/q035.webp",
+  "voice": true
+ },
+ {
+  "id": "q036",
+  "cat": "Animals",
+  "q": "Which insect is known for performing a 'waggle dance'?",
+  "a": [
+   "Ant",
+   "Butterfly",
+   "Honeybee",
+   "Dragonfly"
+  ],
+  "correct": 2,
+  "imgPrompt": "A field of blooming wildflowers",
+  "img": "quiz/q036.webp",
+  "voice": true
+ },
+ {
+  "id": "q037",
+  "cat": "Animals",
+  "q": "What is the only continent where snakes are not found?",
+  "a": [
+   "Australia",
+   "Antarctica",
+   "Africa",
+   "South America"
+  ],
+  "correct": 1,
+  "imgPrompt": "A snowy, icy landscape with mountains.",
+  "img": "quiz/q037.webp",
+  "voice": true
+ },
+ {
+  "id": "q038",
+  "cat": "Animals",
+  "q": "Which bird species is known for its spectacular, colorful tail feathers?",
+  "a": [
+   "Eagle",
+   "Peacock",
+   "Swan",
+   "Parrot"
+  ],
+  "correct": 1,
+  "imgPrompt": "A lush, green tropical jungle floor.",
+  "img": "quiz/q038.webp",
+  "voice": true
+ },
+ {
+  "id": "q039",
+  "cat": "Animals",
+  "q": "What type of animal is a meerkat?",
+  "a": [
+   "Rodent",
+   "Mongoose",
+   "Squirrel",
+   "Badger"
+  ],
+  "correct": 1,
+  "imgPrompt": "A vast, dry African savanna at sunset.",
+  "img": "quiz/q039.webp",
+  "voice": true
+ },
+ {
+  "id": "q040",
+  "cat": "Animals",
+  "q": "Which marine animal is known for its bioluminescent light production?",
+  "a": [
+   "Dolphin",
+   "Jellyfish",
+   "Crab",
+   "Starfish"
+  ],
+  "correct": 1,
+  "imgPrompt": "Deep blue ocean water with bubbles.",
+  "img": "quiz/q040.webp",
+  "voice": true
+ },
+ {
+  "id": "q041",
+  "cat": "Animals",
+  "q": "What is the largest species of shark in the ocean?",
+  "a": [
+   "Great White",
+   "Whale Shark",
+   "Hammerhead",
+   "Tiger Shark"
+  ],
+  "correct": 1,
+  "imgPrompt": "Sunlight filtering through ocean waves.",
+  "img": "quiz/q041.webp",
+  "voice": true
+ },
+ {
+  "id": "q042",
+  "cat": "Animals",
+  "q": "In which country can you find wild lemurs in their natural habitat?",
+  "a": [
+   "Madagascar",
+   "Brazil",
+   "India",
+   "Thailand"
+  ],
+  "correct": 0,
+  "imgPrompt": "Dense, exotic rainforest foliage.",
+  "img": "quiz/q042.webp",
+  "voice": true
+ },
+ {
+  "id": "q043",
+  "cat": "Animals",
+  "q": "What group of animals includes frogs and toads?",
+  "a": [
+   "Reptiles",
+   "Amphibians",
+   "Mammals",
+   "Fish"
+  ],
+  "correct": 1,
+  "imgPrompt": "A calm pond with lily pads.",
+  "img": "quiz/q043.webp",
+  "voice": true
+ },
+ {
+  "id": "q044",
+  "cat": "Animals",
+  "q": "Which desert animal is famously known as a 'ship of the desert'?",
+  "a": [
+   "Horse",
+   "Camel",
+   "Donkey",
+   "Elephant"
+  ],
+  "correct": 1,
+  "imgPrompt": "Rolling sand dunes under a hot sun.",
+  "img": "quiz/q044.webp",
+  "voice": true
+ },
+ {
+  "id": "q045",
+  "cat": "Film & TV",
+  "q": "In which city is the film 'Parasite' primarily set?",
+  "a": [
+   "Busan",
+   "Seoul",
+   "Incheon",
+   "Daegu"
+  ],
+  "correct": 1,
+  "imgPrompt": "A steep residential staircase in a modern urban neighborhood.",
+  "img": "quiz/q045.webp",
+  "voice": true
+ },
+ {
+  "id": "q046",
+  "cat": "Film & TV",
+  "q": "In 'The Matrix', what color pill does Neo take?",
+  "a": [
+   "Blue",
+   "Green",
+   "Red",
+   "Yellow"
+  ],
+  "correct": 2,
+  "imgPrompt": "A pair of dark sunglasses reflecting digital code.",
+  "img": "quiz/q046.webp",
+  "voice": true
+ },
+ {
+  "id": "q047",
+  "cat": "Film & TV",
+  "q": "Which TV series features an alternate dimension called 'The Upside Down'?",
+  "a": [
+   "Lost",
+   "Stranger Things",
+   "Dark",
+   "Black Mirror"
+  ],
+  "correct": 1,
+  "imgPrompt": "A bicycle lying on a suburban street at night.",
+  "img": "quiz/q047.webp",
+  "voice": true
+ },
+ {
+  "id": "q048",
+  "cat": "Film & TV",
+  "q": "Who directed the classic film 'Pulp Fiction'?",
+  "a": [
+   "Steven Spielberg",
+   "Martin Scorsese",
+   "Quentin Tarantino",
+   "Christopher Nolan"
+  ],
+  "correct": 2,
+  "imgPrompt": "A vintage 1970s diner booth with a milkshake.",
+  "img": "quiz/q048.webp",
+  "voice": true
+ },
+ {
+  "id": "q049",
+  "cat": "Film & TV",
+  "q": "What is the name of the kingdom in 'Frozen'?",
+  "a": [
+   "Genovia",
+   "Arendelle",
+   "Far Far Away",
+   "Atlantica"
+  ],
+  "correct": 1,
+  "imgPrompt": "A snowflake pattern etched into a glass window.",
+  "img": "quiz/q049.webp",
+  "voice": true
+ },
+ {
+  "id": "q050",
+  "cat": "Film & TV",
+  "q": "In 'Breaking Bad', what is Walter White's profession originally?",
+  "a": [
+   "Lawyer",
+   "Doctor",
+   "Chemistry teacher",
+   "Mechanic"
+  ],
+  "correct": 2,
+  "imgPrompt": "An empty classroom with a chalkboard and desks.",
+  "img": "quiz/q050.webp",
+  "voice": true
+ },
+ {
+  "id": "q051",
+  "cat": "Film & TV",
+  "q": "In the series 'Friends', how many seasons are there in total?",
+  "a": [
+   "Eight",
+   "Nine",
+   "Ten",
+   "Twelve"
+  ],
+  "correct": 2,
+  "imgPrompt": "A colorful Central Perk coffee mug",
+  "img": "quiz/q051.webp",
+  "voice": true
+ },
+ {
+  "id": "q052",
+  "cat": "Film & TV",
+  "q": "What is the name of the fictional land in 'The Lion King'?",
+  "a": [
+   "Pride Lands",
+   "Shadow Lands",
+   "Jungle Kingdom",
+   "Animal Realm"
+  ],
+  "correct": 0,
+  "imgPrompt": "A bright golden sunrise over a savanna",
+  "img": "quiz/q052.webp",
+  "voice": true
+ },
+ {
+  "id": "q053",
+  "cat": "Film & TV",
+  "q": "In 'Inception', what object does Cobb use as his totem?",
+  "a": [
+   "A spinning top",
+   "A small coin",
+   "A chess piece",
+   "A silver ring"
+  ],
+  "correct": 0,
+  "imgPrompt": "A dreamlike cityscape with folding streets",
+  "img": "quiz/q053.webp",
+  "voice": true
+ },
+ {
+  "id": "q054",
+  "cat": "Film & TV",
+  "q": "Which film features a character named Jack Sparrow?",
+  "a": [
+   "Pirates of the Caribbean",
+   "Treasure Island",
+   "Peter Pan",
+   "Master and Commander"
+  ],
+  "correct": 0,
+  "imgPrompt": "A weathered wooden ship at sea",
+  "img": "quiz/q054.webp",
+  "voice": true
+ },
+ {
+  "id": "q055",
+  "cat": "Film & TV",
+  "q": "What is the name of the school in 'Harry Potter'?",
+  "a": [
+   "Hogwarts",
+   "Narnia",
+   "Middle Earth",
+   "Neverland"
+  ],
+  "correct": 0,
+  "imgPrompt": "A stack of old magical books",
+  "img": "quiz/q055.webp",
+  "voice": true
+ },
+ {
+  "id": "q056",
+  "cat": "Film & TV",
+  "q": "In the series 'Stranger Things', what is Eleven's favorite food?",
+  "a": [
+   "Pizza",
+   "Eggo waffles",
+   "Burgers",
+   "Ice cream"
+  ],
+  "correct": 1,
+  "imgPrompt": "A dim-lit 1980s style basement",
+  "img": "quiz/q056.webp",
+  "voice": true
+ },
+ {
+  "id": "q057",
+  "cat": "Film & TV",
+  "q": "Which animated film follows the journey of a boy named Miguel?",
+  "a": [
+   "Coco",
+   "Up",
+   "Luca",
+   "Soul"
+  ],
+  "correct": 0,
+  "imgPrompt": "Brightly colored marigold petals",
+  "img": "quiz/q057.webp",
+  "voice": true
+ },
+ {
+  "id": "q058",
+  "cat": "Film & TV",
+  "q": "In 'The Godfather', what is the name of the Corleone family head?",
+  "a": [
+   "Vito Corleone",
+   "Michael Corleone",
+   "Sonny Corleone",
+   "Fredo Corleone"
+  ],
+  "correct": 0,
+  "imgPrompt": "A dark silhouette of a man in a suit",
+  "img": "quiz/q058.webp",
+  "voice": true
+ },
+ {
+  "id": "q059",
+  "cat": "Film & TV",
+  "q": "In 'The Lord of the Rings', what is the name of the creature Gollum once was?",
+  "a": [
+   "A wizard",
+   "An elf",
+   "A hobbit",
+   "A dwarf"
+  ],
+  "correct": 2,
+  "imgPrompt": "A golden ring resting on a stone",
+  "img": "quiz/q059.webp",
+  "voice": true
+ },
+ {
+  "id": "q060",
+  "cat": "Film & TV",
+  "q": "What is the name of the fictional town in 'Parks and Recreation'?",
+  "a": [
+   "Pawnee",
+   "Springfield",
+   "Quahog",
+   "Eagleton"
+  ],
+  "correct": 0,
+  "imgPrompt": "A small town hall building",
+  "img": "quiz/q060.webp",
+  "voice": true
+ },
+ {
+  "id": "q061",
+  "cat": "Film & TV",
+  "q": "In 'Star Wars', what is the name of Han Solo's ship?",
+  "a": [
+   "Enterprise",
+   "Millennium Falcon",
+   "Serenity",
+   "Razor Crest"
+  ],
+  "correct": 1,
+  "imgPrompt": "A vast field of distant stars",
+  "img": "quiz/q061.webp",
+  "voice": true
+ },
+ {
+  "id": "q062",
+  "cat": "Film & TV",
+  "q": "In 'Finding Nemo', what kind of fish is Nemo?",
+  "a": [
+   "Blue Tang",
+   "Clownfish",
+   "Goldfish",
+   "Angelfish"
+  ],
+  "correct": 1,
+  "imgPrompt": "A colorful coral reef underwater",
+  "img": "quiz/q062.webp",
+  "voice": true
+ },
+ {
+  "id": "q063",
+  "cat": "Film & TV",
+  "q": "In the film 'Interstellar', what is the name of the robot companion?",
+  "a": [
+   "TARS",
+   "R2-D2",
+   "WALL-E",
+   "Baymax"
+  ],
+  "correct": 0,
+  "imgPrompt": "A vast, swirling cosmic nebula.",
+  "img": "quiz/q063.webp",
+  "voice": true
+ },
+ {
+  "id": "q064",
+  "cat": "Food",
+  "q": "What is the primary ingredient in traditional Japanese miso paste?",
+  "a": [
+   "Rice",
+   "Soybeans",
+   "Wheat",
+   "Seaweed"
+  ],
+  "correct": 1,
+  "imgPrompt": "A wooden fermentation barrel in a cellar",
+  "img": "quiz/q064.webp",
+  "voice": true
+ },
+ {
+  "id": "q065",
+  "cat": "Food",
+  "q": "In which country did the sandwich originate?",
+  "a": [
+   "France",
+   "England",
+   "Italy",
+   "Germany"
+  ],
+  "correct": 1,
+  "imgPrompt": "An elegant silver tea tray",
+  "img": "quiz/q065.webp",
+  "voice": true
+ },
+ {
+  "id": "q066",
+  "cat": "Food",
+  "q": "Which spice is frequently used to flavor traditional Spanish paella?",
+  "a": [
+   "Turmeric",
+   "Saffron",
+   "Cumin",
+   "Paprika"
+  ],
+  "correct": 1,
+  "imgPrompt": "A large shallow cooking pan",
+  "img": "quiz/q066.webp",
+  "voice": true
+ },
+ {
+  "id": "q067",
+  "cat": "Food",
+  "q": "What type of alcohol is used as the base for a Mojito?",
+  "a": [
+   "Gin",
+   "Vodka",
+   "Rum",
+   "Tequila"
+  ],
+  "correct": 2,
+  "imgPrompt": "Fresh mint leaves and lime wedges",
+  "img": "quiz/q067.webp",
+  "voice": true
+ },
+ {
+  "id": "q068",
+  "cat": "Food",
+  "q": "What is the main component of a traditional French omelet?",
+  "a": [
+   "Milk",
+   "Eggs",
+   "Cream",
+   "Butter"
+  ],
+  "correct": 1,
+  "imgPrompt": "A non-stick frying pan on a stove",
+  "img": "quiz/q068.webp",
+  "voice": true
+ },
+ {
+  "id": "q069",
+  "cat": "Food",
+  "q": "Which cheese is essential for making a traditional authentic Carbonara?",
+  "a": [
+   "Cheddar",
+   "Parmesan",
+   "Pecorino Romano",
+   "Brie"
+  ],
+  "correct": 2,
+  "imgPrompt": "A wooden pasta rolling pin",
+  "img": "quiz/q069.webp",
+  "voice": true
+ },
+ {
+  "id": "q070",
+  "cat": "Food",
+  "q": "What is the main ingredient in the Middle Eastern dip baba ganoush?",
+  "a": [
+   "Chickpeas",
+   "Eggplant",
+   "Fava beans",
+   "Lentils"
+  ],
+  "correct": 1,
+  "imgPrompt": "A bowl of olive oil and garlic",
+  "img": "quiz/q070.webp",
+  "voice": true
+ },
+ {
+  "id": "q071",
+  "cat": "Food",
+  "q": "Which fermented cabbage dish is a staple of Korean cuisine?",
+  "a": [
+   "Kimchi",
+   "Sauerkraut",
+   "Coleslaw",
+   "Kraut"
+  ],
+  "correct": 0,
+  "imgPrompt": "A wooden fermentation jar in a garden",
+  "img": "quiz/q071.webp",
+  "voice": true
+ },
+ {
+  "id": "q072",
+  "cat": "Food",
+  "q": "Which spirit is used as the base for a classic Negroni?",
+  "a": [
+   "Gin",
+   "Vodka",
+   "Rum",
+   "Tequila"
+  ],
+  "correct": 0,
+  "imgPrompt": "An orange peel twisting in a glass",
+  "img": "quiz/q072.webp",
+  "voice": true
+ },
+ {
+  "id": "q073",
+  "cat": "Food",
+  "q": "What type of pastry is used to make a traditional baklava?",
+  "a": [
+   "Phyllo",
+   "Choux",
+   "Puff",
+   "Shortcrust"
+  ],
+  "correct": 0,
+  "imgPrompt": "A tray of honey and nuts",
+  "img": "quiz/q073.webp",
+  "voice": true
+ },
+ {
+  "id": "q074",
+  "cat": "Food",
+  "q": "Which nut is used to make traditional marzipan?",
+  "a": [
+   "Almonds",
+   "Walnuts",
+   "Cashews",
+   "Hazelnuts"
+  ],
+  "correct": 0,
+  "imgPrompt": "A rolling pin and flour dusting",
+  "img": "quiz/q074.webp",
+  "voice": true
+ },
+ {
+  "id": "q075",
+  "cat": "Food",
+  "q": "From which country does the coffee drink espresso originate?",
+  "a": [
+   "Italy",
+   "France",
+   "Brazil",
+   "Greece"
+  ],
+  "correct": 0,
+  "imgPrompt": "Steam rising from a hot liquid",
+  "img": "quiz/q075.webp",
+  "voice": true
+ },
+ {
+  "id": "q076",
+  "cat": "Food",
+  "q": "What is the primary flavoring in a traditional Belgian Speculoos cookie?",
+  "a": [
+   "Cinnamon",
+   "Ginger",
+   "Nutmeg",
+   "Clove"
+  ],
+  "correct": 0,
+  "imgPrompt": "A rustic wooden kitchen table",
+  "img": "quiz/q076.webp",
+  "voice": true
+ },
+ {
+  "id": "q077",
+  "cat": "Food",
+  "q": "Which grain is used to make traditional Japanese sake?",
+  "a": [
+   "Rice",
+   "Barley",
+   "Wheat",
+   "Corn"
+  ],
+  "correct": 0,
+  "imgPrompt": "A traditional ceramic pouring vessel",
+  "img": "quiz/q077.webp",
+  "voice": true
+ },
+ {
+  "id": "q078",
+  "cat": "Food",
+  "q": "What type of flour is essential for making authentic Italian pizza dough?",
+  "a": [
+   "Rye flour",
+   "Corn flour",
+   "Type 00 flour",
+   "Rice flour"
+  ],
+  "correct": 2,
+  "imgPrompt": "a table full of dishes from around the world",
+  "img": "quiz/q078.webp",
+  "voice": true
+ },
+ {
+  "id": "q079",
+  "cat": "Food",
+  "q": "Which fermented dairy product is a staple of Turkish cuisine?",
+  "a": [
+   "Yogurt",
+   "Cream cheese",
+   "Cheddar",
+   "Gorgonzola"
+  ],
+  "correct": 0,
+  "imgPrompt": "A ceramic bowl with a spoon",
+  "img": "quiz/q079.webp",
+  "voice": true
+ },
+ {
+  "id": "q080",
+  "cat": "Food",
+  "q": "What is the main ingredient in a traditional Greek Tzatziki sauce?",
+  "a": [
+   "Sour cream",
+   "Greek yogurt",
+   "Mayonnaise",
+   "Whipped cream"
+  ],
+  "correct": 1,
+  "imgPrompt": "Fresh cucumbers and garlic cloves",
+  "img": "quiz/q080.webp",
+  "voice": true
+ },
+ {
+  "id": "q081",
+  "cat": "Food",
+  "q": "What fruit provides the base flavor for Calvados brandy?",
+  "a": [
+   "Pear",
+   "Grape",
+   "Apple",
+   "Plum"
+  ],
+  "correct": 2,
+  "imgPrompt": "An orchard with trees in rows",
+  "img": "quiz/q081.webp",
+  "voice": true
+ },
+ {
+  "id": "q082",
+  "cat": "Food",
+  "q": "What is the primary ingredient in traditional Indian Dal?",
+  "a": [
+   "Rice",
+   "Lentils",
+   "Potatoes",
+   "Wheat"
+  ],
+  "correct": 1,
+  "imgPrompt": "A steaming metal pot",
+  "img": "quiz/q082.webp",
+  "voice": true
+ },
+ {
+  "id": "q083",
+  "cat": "Food",
+  "q": "Which spirit is used to make a classic Margarita?",
+  "a": [
+   "Vodka",
+   "Gin",
+   "Tequila",
+   "Rum"
+  ],
+  "correct": 2,
+  "imgPrompt": "A lime wedge and salt shaker",
+  "img": "quiz/q083.webp",
+  "voice": true
+ },
+ {
+  "id": "q084",
+  "cat": "Food",
+  "q": "What is the main ingredient in traditional Vietnamese Pho broth?",
+  "a": [
+   "Beef or chicken",
+   "Vegetable stock",
+   "Fish stock",
+   "Mushroom broth"
+  ],
+  "correct": 0,
+  "imgPrompt": "A bowl of aromatic herbs",
+  "img": "quiz/q084.webp",
+  "voice": true
+ },
+ {
+  "id": "q085",
+  "cat": "Sport",
+  "q": "Which city hosted the first modern Summer Olympic Games in 1896?",
+  "a": [
+   "Rome",
+   "Athens",
+   "Paris",
+   "London"
+  ],
+  "correct": 1,
+  "imgPrompt": "An ancient marble column under a blue sky.",
+  "img": "quiz/q085.webp",
+  "voice": true
+ },
+ {
+  "id": "q086",
+  "cat": "Sport",
+  "q": "How many rings make up the official Olympic symbol?",
+  "a": [
+   "Four",
+   "Five",
+   "Six",
+   "Seven"
+  ],
+  "correct": 1,
+  "imgPrompt": "A close-up of a textured athletic track.",
+  "img": "quiz/q086.webp",
+  "voice": true
+ },
+ {
+  "id": "q087",
+  "cat": "Sport",
+  "q": "In which sport would you perform a 'slam dunk'?",
+  "a": [
+   "Tennis",
+   "Baseball",
+   "Basketball",
+   "Volleyball"
+  ],
+  "correct": 2,
+  "imgPrompt": "A pair of high-top sneakers on a court.",
+  "img": "quiz/q087.webp",
+  "voice": true
+ },
+ {
+  "id": "q088",
+  "cat": "Sport",
+  "q": "Which legendary boxer was known as 'The Greatest'?",
+  "a": [
+   "Mike Tyson",
+   "Joe Frazier",
+   "Floyd Mayweather",
+   "Muhammad Ali"
+  ],
+  "correct": 3,
+  "imgPrompt": "A pair of red leather boxing gloves.",
+  "img": "quiz/q088.webp",
+  "voice": true
+ },
+ {
+  "id": "q089",
+  "cat": "Sport",
+  "q": "What is the maximum score possible in a single frame of ten-pin bowling?",
+  "a": [
+   "10",
+   "20",
+   "30",
+   "100"
+  ],
+  "correct": 2,
+  "imgPrompt": "A polished wooden floor with shiny reflections.",
+  "img": "quiz/q089.webp",
+  "voice": true
+ },
+ {
+  "id": "q090",
+  "cat": "Sport",
+  "q": "Which country won the most gold medals at the 2016 Rio Olympics?",
+  "a": [
+   "USA",
+   "China",
+   "Great Britain",
+   "Russia"
+  ],
+  "correct": 0,
+  "imgPrompt": "A bright stadium floodlight at night.",
+  "img": "quiz/q090.webp",
+  "voice": true
+ },
+ {
+  "id": "q091",
+  "cat": "Sport",
+  "q": "In golf, what term describes scoring one under par?",
+  "a": [
+   "Eagle",
+   "Birdie",
+   "Bogey",
+   "Albatross"
+  ],
+  "correct": 1,
+  "imgPrompt": "A landscape of rolling green hills.",
+  "img": "quiz/q091.webp",
+  "voice": true
+ },
+ {
+  "id": "q092",
+  "cat": "Sport",
+  "q": "How many players are on a standard soccer team on the pitch?",
+  "a": [
+   "9",
+   "10",
+   "11",
+   "12"
+  ],
+  "correct": 2,
+  "imgPrompt": "A white goal net fluttering in the wind.",
+  "img": "quiz/q092.webp",
+  "voice": true
+ },
+ {
+  "id": "q093",
+  "cat": "Sport",
+  "q": "In which sport do athletes compete for the Davis Cup?",
+  "a": [
+   "Tennis",
+   "Badminton",
+   "Cricket",
+   "Squash"
+  ],
+  "correct": 0,
+  "imgPrompt": "a sunny stadium with a crowd",
+  "img": "quiz/q093.webp",
+  "voice": true
+ },
+ {
+  "id": "q094",
+  "cat": "Sport",
+  "q": "How many players are on a standard volleyball team on court?",
+  "a": [
+   "Six",
+   "Five",
+   "Seven",
+   "Four"
+  ],
+  "correct": 0,
+  "imgPrompt": "A net stretched across a sandy beach court.",
+  "img": "quiz/q094.webp",
+  "voice": true
+ },
+ {
+  "id": "q095",
+  "cat": "Sport",
+  "q": "What is the distance of a full marathon in kilometers?",
+  "a": [
+   "42.195 km",
+   "21.097 km",
+   "40.000 km",
+   "45.500 km"
+  ],
+  "correct": 0,
+  "imgPrompt": "A pair of running shoes on asphalt.",
+  "img": "quiz/q095.webp",
+  "voice": true
+ },
+ {
+  "id": "q096",
+  "cat": "Sport",
+  "q": "In which city were the 2012 Summer Olympics held?",
+  "a": [
+   "London",
+   "Paris",
+   "Berlin",
+   "Madrid"
+  ],
+  "correct": 0,
+  "imgPrompt": "A generic large stadium at night.",
+  "img": "quiz/q096.webp",
+  "voice": true
+ },
+ {
+  "id": "q097",
+  "cat": "Sport",
+  "q": "What color jersey does the leader wear in the Tour de France?",
+  "a": [
+   "Yellow",
+   "Red",
+   "Green",
+   "White"
+  ],
+  "correct": 0,
+  "imgPrompt": "A bicycle leaning against a stone wall.",
+  "img": "quiz/q097.webp",
+  "voice": true
+ },
+ {
+  "id": "q098",
+  "cat": "Sport",
+  "q": "How many points is a touchdown worth in American football?",
+  "a": [
+   "Six",
+   "Three",
+   "Seven",
+   "Two"
+  ],
+  "correct": 0,
+  "imgPrompt": "A green field with white yard lines.",
+  "img": "quiz/q098.webp",
+  "voice": true
+ },
+ {
+  "id": "q099",
+  "cat": "Sport",
+  "q": "Which athlete is known as 'The Black Mamba'?",
+  "a": [
+   "Kobe Bryant",
+   "Michael Jordan",
+   "LeBron James",
+   "Shaquille O'Neal"
+  ],
+  "correct": 0,
+  "imgPrompt": "A basketball hoop with a net.",
+  "img": "quiz/q099.webp",
+  "voice": true
+ },
+ {
+  "id": "q100",
+  "cat": "Sport",
+  "q": "In which sport do players compete for the Stanley Cup?",
+  "a": [
+   "Ice hockey",
+   "Basketball",
+   "Baseball",
+   "Lacrosse"
+  ],
+  "correct": 0,
+  "imgPrompt": "a sunny stadium with a crowd",
+  "img": "quiz/q100.webp",
+  "voice": true
+ },
+ {
+  "id": "q101",
+  "cat": "Sport",
+  "q": "How many players are on a baseball team on the field?",
+  "a": [
+   "Seven",
+   "Eight",
+   "Nine",
+   "Ten"
+  ],
+  "correct": 2,
+  "imgPrompt": "A pair of white baseball gloves and a ball.",
+  "img": "quiz/q101.webp",
+  "voice": true
+ },
+ {
+  "id": "q102",
+  "cat": "Sport",
+  "q": "Which country has won the most FIFA World Cups in men's soccer?",
+  "a": [
+   "Germany",
+   "Argentina",
+   "Italy",
+   "Brazil"
+  ],
+  "correct": 3,
+  "imgPrompt": "A green soccer pitch with white lines.",
+  "img": "quiz/q102.webp",
+  "voice": true
+ },
+ {
+  "id": "q103",
+  "cat": "Sport",
+  "q": "In tennis, what term describes a score of zero?",
+  "a": [
+   "Nil",
+   "Love",
+   "None",
+   "Duck"
+  ],
+  "correct": 1,
+  "imgPrompt": "A yellow tennis ball hitting a net.",
+  "img": "quiz/q103.webp",
+  "voice": true
+ },
+ {
+  "id": "q104",
+  "cat": "Sport",
+  "q": "How many holes are played in a standard professional round of golf?",
+  "a": [
+   "Nine",
+   "Twelve",
+   "Eighteen",
+   "Twenty"
+  ],
+  "correct": 2,
+  "imgPrompt": "A wooden golf tee and a small flag.",
+  "img": "quiz/q104.webp",
+  "voice": true
+ },
+ {
+  "id": "q105",
+  "cat": "Sport",
+  "q": "In which city were the 1992 Summer Olympics held?",
+  "a": [
+   "Barcelona",
+   "Seoul",
+   "Atlanta",
+   "Sydney"
+  ],
+  "correct": 0,
+  "imgPrompt": "A silhouette of a track and field stadium.",
+  "img": "quiz/q105.webp",
+  "voice": true
+ },
+ {
+  "id": "q106",
+  "cat": "Sport",
+  "q": "What is the primary color of a basketball?",
+  "a": [
+   "Red",
+   "Orange",
+   "Yellow",
+   "Brown"
+  ],
+  "correct": 1,
+  "imgPrompt": "A metal hoop with a white net.",
+  "img": "quiz/q106.webp",
+  "voice": true
+ },
+ {
+  "id": "q107",
+  "cat": "Sport",
+  "q": "In which sport would an athlete compete for the America's Cup?",
+  "a": [
+   "Sailing",
+   "Surfing",
+   "Rowing",
+   "Swimming"
+  ],
+  "correct": 0,
+  "imgPrompt": "A large ocean wave",
+  "img": "quiz/q107.webp",
+  "voice": true
+ },
+ {
+  "id": "q108",
+  "cat": "Science",
+  "q": "Which planet is known as the Red Planet?",
+  "a": [
+   "Venus",
+   "Mars",
+   "Jupiter",
+   "Saturn"
+  ],
+  "correct": 1,
+  "imgPrompt": "A vast, dark cosmic void with distant stars.",
+  "img": "quiz/q108.webp",
+  "voice": true
+ },
+ {
+  "id": "q109",
+  "cat": "Science",
+  "q": "What is the largest organ in the human body?",
+  "a": [
+   "Large intestine",
+   "Liver",
+   "Skin",
+   "Brain"
+  ],
+  "correct": 2,
+  "imgPrompt": "A medical diagram of a human silhouette.",
+  "img": "quiz/q109.webp",
+  "voice": true
+ },
+ {
+  "id": "q110",
+  "cat": "Science",
+  "q": "Which element has the chemical symbol 'O'?",
+  "a": [
+   "Gold",
+   "Oxygen",
+   "Osmium",
+   "Iron"
+  ],
+  "correct": 1,
+  "imgPrompt": "A bubbling beaker in a laboratory.",
+  "img": "quiz/q110.webp",
+  "voice": true
+ },
+ {
+  "id": "q111",
+  "cat": "Science",
+  "q": "What does the acronym CPU stand for?",
+  "a": [
+   "Central Processing Unit",
+   "Computer Personal Unit",
+   "Core Processing User",
+   "Central Program Utility"
+  ],
+  "correct": 0,
+  "imgPrompt": "A glowing circuit board pattern.",
+  "img": "quiz/q111.webp",
+  "voice": true
+ },
+ {
+  "id": "q112",
+  "cat": "Science",
+  "q": "How many bones are in the adult human body?",
+  "a": [
+   "150",
+   "206",
+   "300",
+   "250"
+  ],
+  "correct": 1,
+  "imgPrompt": "A microscopic view of human cells.",
+  "img": "quiz/q112.webp",
+  "voice": true
+ },
+ {
+  "id": "q113",
+  "cat": "Science",
+  "q": "What is the closest star to Earth?",
+  "a": [
+   "Sirius",
+   "Proxima Centauri",
+   "The Sun",
+   "Betelgeuse"
+  ],
+  "correct": 2,
+  "imgPrompt": "An astronaut floating in zero gravity.",
+  "img": "quiz/q113.webp",
+  "voice": true
+ },
+ {
+  "id": "q114",
+  "cat": "Science",
+  "q": "Which part of the cell contains genetic material?",
+  "a": [
+   "Cytoplasm",
+   "Nucleus",
+   "Ribosome",
+   "Membrane"
+  ],
+  "correct": 1,
+  "imgPrompt": "Abstract colorful biological shapes.",
+  "img": "quiz/q114.webp",
+  "voice": true
+ },
+ {
+  "id": "q115",
+  "cat": "Science",
+  "q": "In computing, what does RAM stand for?",
+  "a": [
+   "Read Access Memory",
+   "Rapid Action Module",
+   "Random Access Memory",
+   "Realtime Array Mode"
+  ],
+  "correct": 2,
+  "imgPrompt": "A person typing on a laptop.",
+  "img": "quiz/q115.webp",
+  "voice": true
+ },
+ {
+  "id": "q116",
+  "cat": "Science",
+  "q": "What is the most abundant gas in Earth's atmosphere?",
+  "a": [
+   "Oxygen",
+   "Carbon dioxide",
+   "Nitrogen",
+   "Argon"
+  ],
+  "correct": 2,
+  "imgPrompt": "A blue Earth seen from orbit.",
+  "img": "quiz/q116.webp",
+  "voice": true
+ },
+ {
+  "id": "q117",
+  "cat": "Science",
+  "q": "Which part of the human brain controls balance and coordination?",
+  "a": [
+   "Cerebrum",
+   "Cerebellum",
+   "Brainstem",
+   "Thalamus"
+  ],
+  "correct": 1,
+  "imgPrompt": "A stylized silhouette of a human head.",
+  "img": "quiz/q117.webp",
+  "voice": true
+ },
+ {
+  "id": "q118",
+  "cat": "Science",
+  "q": "What type of galaxy is our Milky Way?",
+  "a": [
+   "Elliptical",
+   "Irregular",
+   "Spiral",
+   "Lenticular"
+  ],
+  "correct": 2,
+  "imgPrompt": "A vast field of distant stars.",
+  "img": "quiz/q118.webp",
+  "voice": true
+ },
+ {
+  "id": "q119",
+  "cat": "Science",
+  "q": "What is the primary component of a human fingernail?",
+  "a": [
+   "Calcium",
+   "Keratin",
+   "Collagen",
+   "Elastin"
+  ],
+  "correct": 1,
+  "imgPrompt": "A close-up of a person's hand.",
+  "img": "quiz/q119.webp",
+  "voice": true
+ },
+ {
+  "id": "q120",
+  "cat": "Science",
+  "q": "Which metal is liquid at standard room temperature?",
+  "a": [
+   "Mercury",
+   "Gallium",
+   "Silver",
+   "Copper"
+  ],
+  "correct": 0,
+  "imgPrompt": "A laboratory beaker with liquid inside.",
+  "img": "quiz/q120.webp",
+  "voice": true
+ },
+ {
+  "id": "q121",
+  "cat": "Science",
+  "q": "What technology is used to convert light into electricity?",
+  "a": [
+   "Turbines",
+   "Batteries",
+   "Solar cells",
+   "Generators"
+  ],
+  "correct": 2,
+  "imgPrompt": "Bright sunlight shining through clouds.",
+  "img": "quiz/q121.webp",
+  "voice": true
+ },
+ {
+  "id": "q122",
+  "cat": "Science",
+  "q": "How many chambers does a human heart have?",
+  "a": [
+   "Two",
+   "Three",
+   "Four",
+   "Five"
+  ],
+  "correct": 2,
+  "imgPrompt": "An anatomical drawing of a chest.",
+  "img": "quiz/q122.webp",
+  "voice": true
+ },
+ {
+  "id": "q123",
+  "cat": "Science",
+  "q": "Which planet is famous for its wide, bright rings?",
+  "a": [
+   "Jupiter",
+   "Saturn",
+   "Mars",
+   "Venus"
+  ],
+  "correct": 1,
+  "imgPrompt": "A dark cosmic void with starlight.",
+  "img": "quiz/q123.webp",
+  "voice": true
+ },
+ {
+  "id": "q124",
+  "cat": "Science",
+  "q": "Which gas is most commonly found in the Sun?",
+  "a": [
+   "Helium",
+   "Hydrogen",
+   "Nitrogen",
+   "Oxygen"
+  ],
+  "correct": 1,
+  "imgPrompt": "A glowing celestial sphere in deep space",
+  "img": "quiz/q124.webp",
+  "voice": true
+ },
+ {
+  "id": "q125",
+  "cat": "Science",
+  "q": "What is the hardest natural substance on Earth?",
+  "a": [
+   "Gold",
+   "Iron",
+   "Diamond",
+   "Quartz"
+  ],
+  "correct": 2,
+  "imgPrompt": "A pile of raw unpolished gemstones",
+  "img": "quiz/q125.webp",
+  "voice": true
+ },
+ {
+  "id": "q126",
+  "cat": "Science",
+  "q": "Which part of the eye controls light entry?",
+  "a": [
+   "Retina",
+   "Iris",
+   "Cornea",
+   "Lens"
+  ],
+  "correct": 1,
+  "imgPrompt": "A close-up macro shot of a human eye",
+  "img": "quiz/q126.webp",
+  "voice": true
+ },
+ {
+  "id": "q127",
+  "cat": "Science",
+  "q": "What is the basic unit of digital information?",
+  "a": [
+   "Byte",
+   "Bit",
+   "Pixel",
+   "Node"
+  ],
+  "correct": 1,
+  "imgPrompt": "A glowing circuit board pattern",
+  "img": "quiz/q127.webp",
+  "voice": true
+ },
+ {
+  "id": "q128",
+  "cat": "Science",
+  "q": "Which planet is famous for its prominent ring system?",
+  "a": [
+   "Jupiter",
+   "Uranus",
+   "Neptune",
+   "Saturn"
+  ],
+  "correct": 3,
+  "imgPrompt": "A vast dark cosmic void",
+  "img": "quiz/q128.webp",
+  "voice": true
+ },
+ {
+  "id": "q129",
+  "cat": "Science",
+  "q": "What force keeps planets in orbit around stars?",
+  "a": [
+   "Magnetism",
+   "Friction",
+   "Gravity",
+   "Inertia"
+  ],
+  "correct": 2,
+  "imgPrompt": "An apple falling from a tree",
+  "img": "quiz/q129.webp",
+  "voice": true
+ },
+ {
+  "id": "q130",
+  "cat": "Science",
+  "q": "Which organ produces insulin in the human body?",
+  "a": [
+   "Liver",
+   "Pancreas",
+   "Kidney",
+   "Spleen"
+  ],
+  "correct": 1,
+  "imgPrompt": "A medical diagram of the abdomen",
+  "img": "quiz/q130.webp",
+  "voice": true
+ },
+ {
+  "id": "q131",
+  "cat": "Science",
+  "q": "What is the main material used in fiber optics?",
+  "a": [
+   "Copper",
+   "Glass",
+   "Plastic",
+   "Silicon"
+  ],
+  "correct": 1,
+  "imgPrompt": "Glowing blue light trails",
+  "img": "quiz/q131.webp",
+  "voice": true
+ }
+]

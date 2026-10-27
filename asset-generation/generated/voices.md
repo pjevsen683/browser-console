@@ -1,0 +1,197 @@
+- speech job 904ee129: count-3-0.mp3 "Tre!" roest coral_dk temperature 0.7 seed 4852; Whisper 0 ord, 0.02 dansk
+- speech job 32540ef2: count-2-0.mp3 "To!" roest coral_dk temperature 0.7 seed 8182; Whisper 1 ord, 0 dansk
+- speech job bf9b016f: count-1-0.mp3 "En!" roest coral_dk temperature 0.7 seed 4737; Whisper 0 ord, 0.04 dansk
+- speech job eb65f1f2: go-0.mp3 "Skub!" roest coral_dk temperature 0.7 seed 8731; Whisper 1 ord, 0 dansk
+- speech job 8bb88548: go-1.mp3 "Kom så!" roest coral_dk temperature 0.7 seed 9800; Whisper 1 ord, 0.07 dansk
+- speech job 7c2c86d1: round-0.mp3 "Runden er slut!" roest coral_dk temperature 0.7 seed 3468; Whisper 1 ord, 0.42 dansk
+- speech job 7ec12000: round-1.mp3 "Plask! Så er der én tilbage!" roest coral_dk temperature 0.7 seed 7793; Whisper 1 ord, 0.99 dansk
+- speech job b1bd44d0: winner-0.mp3 "Vi har en vinder!" roest coral_dk temperature 0.7 seed 8034; Whisper 0.75 ord, 0.59 dansk
+- speech job 7006408d: winner-1.mp3 "Sikke en sumobryder!" roest coral_dk temperature 0.7 seed 2256; Whisper 0.67 ord, 0.98 dansk
+- speech job 8bc4c0ba: winner-0.mp3 "Og vinderen er fundet!" roest coral_dk temperature 0.7 seed 3572; Whisper 0.67 ord, 0.62 dansk
+- 2026-10-18 15:55 winner-1.mp3 ("Sikke en sumobryder!", job 7006408d) omdøbt til winner-0.mp3; "vinder"-replikkerne og nedtællingen droppet
+- 2026-10-25 15:35 spillet er nu på engelsk: de danske replikker er slettet, engelske optaget med chatterbox (en)
+- speech job c6dc436b: count-3-0.mp3 "Three!" chatterbox en (indbygget stemme) exaggeration 0.6 temperature 0.7 seed 4578; Whisper 1 ord, 0.99 en
+- speech job b1cfd042: count-2-0.mp3 "Two!" chatterbox en (indbygget stemme) exaggeration 0.6 temperature 0.7 seed 9498; Whisper 1 ord, 0.99 en
+- speech job 1964514e: count-1-0.mp3 "One!" chatterbox en (indbygget stemme) exaggeration 0.6 temperature 0.7 seed 9869; Whisper 1 ord, 0.99 en
+- speech job f3d999a3: go-0.mp3 "Push!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 1633; Whisper 1 ord, 0.96 en
+- speech job e7fb174a: go-1.mp3 "Go, go, go!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 1096; Whisper 1 ord, 0.98 en
+- speech job c5909edd: round-0.mp3 "Round over!" chatterbox en (indbygget stemme) exaggeration 0.6 temperature 0.7 seed 3115; Whisper 1 ord, 1 en
+- speech job bf6b6cef: round-1.mp3 "Splash! Only one left!" chatterbox en (indbygget stemme) exaggeration 0.7 temperature 0.7 seed 5719; Whisper 1 ord, 0.99 en
+- speech job 48d9d9e9: winner-0.mp3 "We have a winner!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 7724; Whisper 1 ord, 1 en
+- speech job 868f9266: winner-1.mp3 "What a sumo champion!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 4544; Whisper 1 ord, 0.99 en
+- speech job e352343c: quiz-intro-0.mp3 "Welcome to Quiz Night!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 3602; Whisper 1 ord, 1 en
+- speech job c8fd1b56: quiz-last-0.mp3 "Last question!" chatterbox en (indbygget stemme) exaggeration 0.7 temperature 0.7 seed 8339; Whisper 1 ord, 1 en
+- speech job 9dbe650e: tr-clues-0.mp3 "Give your clues!" chatterbox en (indbygget stemme) exaggeration 0.7 temperature 0.7 seed 3011; Whisper 1 ord, 1 en
+- speech job 3ff82185: tr-vote-0.mp3 "Time to vote!" chatterbox en (indbygget stemme) exaggeration 0.7 temperature 0.7 seed 6845; Whisper 1 ord, 1 en
+- speech job 21eed761: tr-caught-0.mp3 "The traitor has been caught!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 8109; Whisper 0.8 ord, 1 en
+- speech job f594fbcb: tr-escaped-0.mp3 "The traitor got away!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 7343; Whisper 1 ord, 1 en
+- speech job 75875c94: quiz/q001.mp3 "Which Danish landmark consists of a massive, ancient burial mound?" chatterbox en; Whisper 1
+- speech job 7ae96a2e: quiz/q002.mp3 "What is the main ingredient in the traditional Danish open-faced sandwich called Smørrebrød?" chatterbox en; Whisper 0.85
+- speech job b0223b1e: quiz/q003.mp3 "Which famous Danish author wrote the fairy tale 'The Little Mermaid'?" chatterbox en; Whisper 1
+- speech job ac7b6a42: quiz/q004.mp3 "Which Danish city serves as the country's capital?" chatterbox en; Whisper 1
+- speech job 65a0c0f1: quiz/q005.mp3 "The concept of 'Hygge' is most closely associated with what feeling?" chatterbox en; Whisper 0.91
+- speech job 7b8e38f9: quiz/q006.mp3 "Which Danish physicist developed the model of the atom?" chatterbox en; Whisper 1
+- speech job e59628a8: quiz/q007.mp3 "What is the name of the famous colorful waterfront district in Copenhagen?" chatterbox en; Whisper 1
+- speech job 875095e9: quiz/q008.mp3 "Which iconic toy brand was founded in Denmark in 1932?" chatterbox en; Whisper 1
+- speech job cf609b28: quiz/q009.mp3 "Which Danish monarch is famously known as the founder of the Kalmar Union?" chatterbox en; Whisper 1
+- speech job 7e38d8ff: quiz/q010.mp3 "What is the name of the narrow strait separating Denmark and Sweden?" chatterbox en; Whisper 0.92
+- speech job 12e53b9d: quiz/q011.mp3 "Who directed the classic Danish film 'Ordet'?" chatterbox en; Whisper 1
+- speech job db6c5588: quiz/q012.mp3 "In which Danish city is the headquarters of the LEGO Group located?" chatterbox en; Whisper 1
+- speech job c1356c6f: quiz/q013.mp3 "What is the traditional name for the Danish midwinter celebration?" chatterbox en; Whisper 1
+- speech job c6f707f8: quiz/q014.mp3 "Which Danish philosopher is famous for the work 'Fear and Trembling'?" chatterbox en; Whisper 1
+- speech job c418ca74: quiz/q015.mp3 "Which island is the largest in Denmark?" chatterbox en; Whisper 1
+- speech job c7408d60: quiz/q016.mp3 "What is the name of the Danish royal residence in Copenhagen?" chatterbox en; Whisper 1
+- speech job b3b01734: quiz/q017.mp3 "Which Danish designer created the iconic Egg Chair?" chatterbox en; Whisper 1
+- speech job 6401f4a0: quiz/q018.mp3 "What is the primary language spoken in Denmark?" chatterbox en; Whisper 1
+- speech job f4a6325c: quiz/q019.mp3 "Roughly which centuries make up the Viking Age?" chatterbox en; Whisper 1
+- speech job 36c3c51c: quiz/q020.mp3 "What is the name of the traditional Danish sausage?" chatterbox en; Whisper 1
+- speech job fc7e1bdb: quiz/q021.mp3 "Which bird is known for its ability to mimic almost any sound?" chatterbox en; Whisper 1
+- speech job 79dbf374: quiz/q022.mp3 "What is the only mammal capable of true powered flight?" chatterbox en; Whisper 1
+- speech job 374bbc82: quiz/q023.mp3 "In which ocean would you find the Great Barrier Reef?" chatterbox en; Whisper 1
+- speech job fa77c86d: quiz/q024.mp3 "How many hearts does an octopus have?" chatterbox en; Whisper 1
+- speech job 68988703: quiz/q025.mp3 "Which land animal has the longest gestation period?" chatterbox en; Whisper 1
+- speech job f871d09f: quiz/q026.mp3 "What type of animal is a Komodo dragon?" chatterbox en; Whisper 1
+- speech job 2d286fbf: quiz/q027.mp3 "Which tree species is known for producing acorns?" chatterbox en; Whisper 1
+- speech job 2ee9e5e2: quiz/q028.mp3 "What is the primary diet of a giant panda?" chatterbox en; Whisper 1
+- speech job 376da955: quiz/q029.mp3 "What is the largest species of big cat in the world?" chatterbox en; Whisper 1
+- speech job 0b9944b3: quiz/q030.mp3 "Which flightless bird is native to the island of New Zealand?" chatterbox en; Whisper 1
+- speech job 6c1af3a2: quiz/q031.mp3 "What type of creature is a sea anemone?" chatterbox en; Whisper 1
+- speech job 4e5f65fe: quiz/q032.mp3 "Which mammal is known for having a pouch to carry young?" chatterbox en; Whisper 1
+- speech job 1a0d4e33: quiz/q033.mp3 "What is the fastest land animal in the world?" chatterbox en; Whisper 1
+- speech job b526c565: quiz/q034.mp3 "Which animal is famous for its ability to change skin color?" chatterbox en; Whisper 1
+- speech job 87445356: quiz/q035.mp3 "What is the largest mammal alive on Earth today?" chatterbox en; Whisper 1
+- speech job 150a7989: quiz/q036.mp3 "Which insect is known for performing a 'waggle dance'?" chatterbox en; Whisper 1
+- speech job 08029e0b: quiz/q037.mp3 "What is the only continent where snakes are not found?" chatterbox en; Whisper 1
+- speech job 2e5b6e33: quiz/q038.mp3 "Which bird species is known for its spectacular, colorful tail feathers?" chatterbox en; Whisper 1
+- speech job 16f65436: quiz/q039.mp3 "What type of animal is a meerkat?" chatterbox en; Whisper 1
+- speech job a9966364: quiz/q040.mp3 "Which marine animal is known for its bioluminescent light production?" chatterbox en; Whisper 1
+- speech job 4268ee28: quiz/q041.mp3 "What is the largest species of shark in the ocean?" chatterbox en; Whisper 1
+- speech job 0e11c353: quiz/q042.mp3 "In which country can you find wild lemurs in their natural habitat?" chatterbox en; Whisper 1
+- speech job d3b2bfa9: quiz/q043.mp3 "What group of animals includes frogs and toads?" chatterbox en; Whisper 1
+- speech job b36aba53: quiz/q044.mp3 "Which desert animal is famously known as a 'ship of the desert'?" chatterbox en; Whisper 1
+- speech job 777b1f02: quiz/q045.mp3 "In which city is the film 'Parasite' primarily set?" chatterbox en; Whisper 1
+- speech job 6ab0d28b: quiz/q046.mp3 "In 'The Matrix', what color pill does Neo take?" chatterbox en; Whisper 1
+- speech job 2e855dca: quiz/q047.mp3 "Which TV series features an alternate dimension called 'The Upside Down'?" chatterbox en; Whisper 1
+- speech job a8d6a158: quiz/q048.mp3 "Who directed the classic film 'Pulp Fiction'?" chatterbox en; Whisper 1
+- speech job fe395514: quiz/q049.mp3 "What is the name of the kingdom in 'Frozen'?" chatterbox en; Whisper 1
+- speech job f7341a96: quiz/q050.mp3 "In 'Breaking Bad', what is Walter White's profession originally?" chatterbox en; Whisper 1
+- speech job 2557ac9b: quiz/q051.mp3 "In the series 'Friends', how many seasons are there in total?" chatterbox en; Whisper 1
+- speech job 18862dfe: quiz/q052.mp3 "What is the name of the fictional land in 'The Lion King'?" chatterbox en; Whisper 1
+- speech job 795ac5e8: quiz/q053.mp3 "In 'Inception', what object does Cobb use as his totem?" chatterbox en; Whisper 1
+- speech job 8003ce8c: quiz/q054.mp3 "Which film features a character named Jack Sparrow?" chatterbox en; Whisper 1
+- speech job bc4fba4f: quiz/q055.mp3 "What is the name of the school in 'Harry Potter'?" chatterbox en; Whisper 1
+- speech job 994fceb0: quiz/q056.mp3 "In the series 'Stranger Things', what is Eleven's favorite food?" chatterbox en; Whisper 1
+- speech job b9c864ba: quiz/q057.mp3 "Which animated film follows the journey of a boy named Miguel?" chatterbox en; Whisper 1
+- speech job d35acb17: quiz/q058.mp3 "In 'The Godfather', what is the name of the Corleone family head?" chatterbox en; Whisper 1
+- speech job 2c17f440: quiz/q059.mp3 "In 'The Lord of the Rings', what is the name of the creature Gollum once was?" chatterbox en; Whisper 1
+- speech job 4b27e0fa: quiz/q060.mp3 "What is the name of the fictional town in 'Parks and Recreation'?" chatterbox en; Whisper 1
+- speech job b8fbcaa1: quiz/q061.mp3 "In 'Star Wars', what is the name of Han Solo's ship?" chatterbox en; Whisper 0.91
+- speech job b6e58a75: quiz/q062.mp3 "In 'Finding Nemo', what kind of fish is Nemo?" chatterbox en; Whisper 1
+- speech job d9f81a79: quiz/q063.mp3 "In the film 'Interstellar', what is the name of the robot companion?" chatterbox en; Whisper 1
+- speech job 1d6ecaa7: quiz/q064.mp3 "What is the primary ingredient in traditional Japanese miso paste?" chatterbox en; Whisper 1
+- speech job 83d9a444: quiz/q065.mp3 "In which country did the sandwich originate?" chatterbox en; Whisper 1
+- speech job 1f2fef88: quiz/q066.mp3 "Which spice is frequently used to flavor traditional Spanish paella?" chatterbox en; Whisper 0.9
+- speech job e267d7a2: quiz/q067.mp3 "What type of alcohol is used as the base for a Mojito?" chatterbox en; Whisper 1
+- speech job 0e9a9b23: quiz/q068.mp3 "What is the main component of a traditional French omelet?" chatterbox en; Whisper 1
+- speech job adc57dde: quiz/q069.mp3 "Which cheese is essential for making a traditional authentic Carbonara?" chatterbox en; Whisper 1
+- speech job a81611b7: quiz/q070.mp3 "What is the main ingredient in the Middle Eastern dip baba ganoush?" chatterbox en; Whisper 1
+- speech job 283586dc: quiz/q071.mp3 "Which fermented cabbage dish is a staple of Korean cuisine?" chatterbox en; Whisper 1
+- speech job 399eaee9: quiz/q072.mp3 "Which spirit is used as the base for a classic Negroni?" chatterbox en; Whisper 1
+- speech job 4c6c1553: quiz/q073.mp3 "What type of pastry is used to make a traditional baklava?" chatterbox en; Whisper 1
+- speech job f68cc407: quiz/q074.mp3 "Which nut is used to make traditional marzipan?" chatterbox en; Whisper 1
+- speech job 2e90da2e: quiz/q075.mp3 "From which country does the coffee drink espresso originate?" chatterbox en; Whisper 1
+- speech job 93a32514: quiz/q076.mp3 "What is the primary flavoring in a traditional Belgian Speculoos cookie?" chatterbox en; Whisper 1
+- speech job d4cbda1e: quiz/q077.mp3 "Which grain is used to make traditional Japanese sake?" chatterbox en; Whisper 1
+- speech job 3b6b51e9: quiz/q078.mp3 "What type of flour is essential for making authentic Italian pizza dough?" chatterbox en; Whisper 1
+- speech job 0b5222fb: quiz/q079.mp3 "Which fermented dairy product is a staple of Turkish cuisine?" chatterbox en; Whisper 1
+- speech job bf7edd16: quiz/q080.mp3 "What is the main ingredient in a traditional Greek Tzatziki sauce?" chatterbox en; Whisper 0.91
+- speech job f1c62e4c: quiz/q081.mp3 "What fruit provides the base flavor for Calvados brandy?" chatterbox en; Whisper 1
+- speech job 19dc4b09: quiz/q082.mp3 "What is the primary ingredient in traditional Indian Dal?" chatterbox en; Whisper 0.89
+- speech job 544256af: quiz/q083.mp3 "Which spirit is used to make a classic Margarita?" chatterbox en; Whisper 1
+- speech job 57d9958f: quiz/q084.mp3 "What is the main ingredient in traditional Vietnamese Pho broth?" chatterbox en; Whisper 1
+- speech job da018a46: quiz/q085.mp3 "Which city hosted the first modern Summer Olympic Games in 1896?" chatterbox en; Whisper 1
+- speech job f0626be7: quiz/q086.mp3 "How many rings make up the official Olympic symbol?" chatterbox en; Whisper 1
+- speech job c6287dd4: quiz/q087.mp3 "In which sport would you perform a 'slam dunk'?" chatterbox en; Whisper 1
+- speech job fa8cb2cc: quiz/q088.mp3 "Which legendary boxer was known as 'The Greatest'?" chatterbox en; Whisper 1
+- speech job fe8ac79d: quiz/q089.mp3 "What is the maximum score possible in a single frame of ten-pin bowling?" chatterbox en; Whisper 0.92
+- speech job a112552b: quiz/q090.mp3 "Which country won the most gold medals at the 2016 Rio Olympics?" chatterbox en; Whisper 1
+- speech job 20901852: quiz/q091.mp3 "In golf, what term describes scoring one under par?" chatterbox en; Whisper 0.94
+- speech job 5419cb86: quiz/q092.mp3 "How many players are on a standard soccer team on the pitch?" chatterbox en; Whisper 1
+- speech job 04f5bb45: quiz/q093.mp3 "In which sport do athletes compete for the Davis Cup?" chatterbox en; Whisper 1
+- speech job 0a11fd9f: quiz/q094.mp3 "How many players are on a standard volleyball team on court?" chatterbox en; Whisper 1
+- speech job 3a66e2b4: quiz/q095.mp3 "What is the distance of a full marathon in kilometers?" chatterbox en; Whisper 1
+- speech job c7fba2f9: quiz/q096.mp3 "In which city were the 2012 Summer Olympics held?" chatterbox en; Whisper 1
+- speech job b4e8ee9f: quiz/q097.mp3 "What color jersey does the leader wear in the Tour de France?" chatterbox en; Whisper 1
+- speech job 9a0ff40a: quiz/q098.mp3 "How many points is a touchdown worth in American football?" chatterbox en; Whisper 1
+- speech job 8dcfc358: quiz/q099.mp3 "Which athlete is known as 'The Black Mamba'?" chatterbox en; Whisper 1
+- speech job 846da94d: quiz/q100.mp3 "In which sport do players compete for the Stanley Cup?" chatterbox en; Whisper 1
+- speech job 95021c7d: quiz/q101.mp3 "How many players are on a baseball team on the field?" chatterbox en; Whisper 1
+- speech job 3be97ee6: quiz/q102.mp3 "Which country has won the most FIFA World Cups in men's soccer?" chatterbox en; Whisper 1
+- speech job 51240233: quiz/q103.mp3 "In tennis, what term describes a score of zero?" chatterbox en; Whisper 1
+- speech job 43754453: quiz/q104.mp3 "How many holes are played in a standard professional round of golf?" chatterbox en; Whisper 1
+- speech job 2db26ccb: quiz/q105.mp3 "In which city were the 1992 Summer Olympics held?" chatterbox en; Whisper 1
+- speech job 8093a19e: quiz/q106.mp3 "What is the primary color of a basketball?" chatterbox en; Whisper 1
+- speech job fac82f41: quiz/q107.mp3 "In which sport would an athlete compete for the America's Cup?" chatterbox en; Whisper 1
+- speech job b8ecae62: quiz/q108.mp3 "Which planet is known as the Red Planet?" chatterbox en; Whisper 1
+- speech job 7dd0c749: quiz/q109.mp3 "What is the largest organ in the human body?" chatterbox en; Whisper 1
+- speech job 47658ed4: quiz/q110.mp3 "Which element has the chemical symbol 'O'?" chatterbox en; Whisper 1
+- speech job fa26f24f: quiz/q111.mp3 "What does the acronym CPU stand for?" chatterbox en; Whisper 1
+- speech job 55aedea2: quiz/q112.mp3 "How many bones are in the adult human body?" chatterbox en; Whisper 1
+- speech job 0c9401a5: quiz/q113.mp3 "What is the closest star to Earth?" chatterbox en; Whisper 1
+- speech job 2bab8a5a: quiz/q114.mp3 "Which part of the cell contains genetic material?" chatterbox en; Whisper 1
+- speech job c9d4f4a6: quiz/q115.mp3 "In computing, what does RAM stand for?" chatterbox en; Whisper 1
+- speech job 15aa1a0f: quiz/q116.mp3 "What is the most abundant gas in Earth's atmosphere?" chatterbox en; Whisper 1
+- speech job 43efd5be: quiz/q117.mp3 "Which part of the human brain controls balance and coordination?" chatterbox en; Whisper 1
+- speech job 3b3e009d: quiz/q118.mp3 "What type of galaxy is our Milky Way?" chatterbox en; Whisper 1
+- speech job 6fe2ae92: quiz/q119.mp3 "What is the primary component of a human fingernail?" chatterbox en; Whisper 1
+- speech job 5e4b4322: quiz/q120.mp3 "Which metal is liquid at standard room temperature?" chatterbox en; Whisper 1
+- speech job 79fb0b83: quiz/q121.mp3 "What technology is used to convert light into electricity?" chatterbox en; Whisper 1
+- speech job 573b11ca: quiz/q122.mp3 "How many chambers does a human heart have?" chatterbox en; Whisper 1
+- speech job 8ff58a47: quiz/q123.mp3 "Which planet has the most moons in our solar system?" chatterbox en; Whisper 0.9
+- speech job e63416d6: quiz/q124.mp3 "Which gas is most commonly found in the Sun?" chatterbox en; Whisper 1
+- speech job ce8f8576: quiz/q125.mp3 "What is the hardest natural substance on Earth?" chatterbox en; Whisper 1
+- speech job 2cb0d4b8: quiz/q126.mp3 "Which part of the eye controls light entry?" chatterbox en; Whisper 1
+- speech job 0b30eee8: quiz/q127.mp3 "What is the basic unit of digital information?" chatterbox en; Whisper 1
+- speech job 36b7175e: quiz/q128.mp3 "Which planet is famous for its prominent ring system?" chatterbox en; Whisper 1
+- speech job 13d9a645: quiz/q129.mp3 "What force keeps planets in orbit around stars?" chatterbox en; Whisper 1
+- speech job 0dc37829: quiz/q130.mp3 "Which organ produces insulin in the human body?" chatterbox en; Whisper 1
+- speech job a286110a: quiz/q131.mp3 "What is the main material used in fiber optics?" chatterbox en; Whisper 1
+- speech job 9761739e: quiz/q020.mp3 "What is the Danish word for sausage?" chatterbox en; Whisper 1
+- speech job e8ce0cb6: quiz/q123.mp3 "Which planet is famous for its wide, bright rings?" chatterbox en; Whisper 1
+- speech job 19f01580: gran-hm-0.mp3 "Hmm? What was that?" chatterbox en (coral_nic) exaggeration 0.6 temperature 0.7 seed 5759; Whisper 1 ord, 1 en
+- speech job fd081194: gran-hm-1.mp3 "Kitty? Is that you?" chatterbox en (coral_nic) exaggeration 0.6 temperature 0.7 seed 7234; Whisper 1 ord, 0.92 en
+- speech job 31823e52: gran-look-0.mp3 "I'm watching you, kitties." chatterbox en (coral_nic) exaggeration 0.7 temperature 0.7 seed 4854; Whisper 1 ord, 0.99 en
+- speech job f73140ef: gran-look-1.mp3 "Are you being good?" chatterbox en (coral_nic) exaggeration 0.6 temperature 0.7 seed 6232; Whisper 1 ord, 0.91 en
+- speech job 2d0b0925: gran-caught-0.mp3 "Hey! I saw that!" chatterbox en (coral_nic) exaggeration 1 temperature 0.7 seed 4352; Whisper 1 ord, 0.99 en
+- speech job 16898d9e: gran-caught-1.mp3 "Off the table, you rascal!" chatterbox en (coral_nic) exaggeration 1 temperature 0.7 seed 5997; Whisper 1 ord, 0.98 en
+- speech job 4a0379ab: gran-caught-2.mp3 "Naughty kitty!" chatterbox en (coral_nic) exaggeration 0.9 temperature 0.7 seed 6582; Whisper 1 ord, 0.68 en
+- speech job c8ad390b: gran-done-0.mp3 "Oh no, my lovely things!" chatterbox en (coral_nic) exaggeration 1.1 temperature 0.7 seed 9080; Whisper 1 ord, 0.99 en
+- speech job 61907a3b: cats-intro-0.mp3 "Don't let grandma see you!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 4557; Whisper 1 ord, 1 en
+- speech job da8685da: sb-intro-0.mp3 "Snowball fight!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 5366; Whisper 1 ord, 0.99 en
+- speech job 04e08418: sb-out-0.mp3 "You're out!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 1200; Whisper 1 ord, 1 en
+- speech job 5652909f: sb-red-0.mp3 "Red team wins!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 4261; Whisper 1 ord, 1 en
+- speech job dde826b9: sb-blue-0.mp3 "Blue team wins!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 2780; Whisper 1 ord, 0.99 en
+- speech job 9a92662c: dg-intro-0.mp3 "Draw and guess!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 8732; Whisper 1 ord, 0.99 en
+- speech job 6b376491: dg-up-0.mp3 "Time's up!" chatterbox en (indbygget stemme) exaggeration 0.7 temperature 0.7 seed 9442; Whisper 1 ord, 0.92 en
+- speech job 3b0309cb: dg-all-0.mp3 "Everybody got it!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 3667; Whisper 1 ord, 1 en
+- speech job 9f0c6528: rc-intro-0.mp3 "Start your engines!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 2811; Whisper 1 ord, 1 en
+- speech job 99c0af0f: rc-last-0.mp3 "Last car standing!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 3072; Whisper 1 ord, 1 en
+- speech job bdd656ba: dn-intro-0.mp3 "Let's dance!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 5449; Whisper 1 ord, 0.99 en
+- speech job 13f25d73: dn-end-0.mp3 "What a dance party!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 7296; Whisper 1 ord, 1 en
+- speech job 8206d55c: pn-intro-0.mp3 "Color panic!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 4391; Whisper 1 ord, 1 en
+- speech job 13af3040: pn-red-0.mp3 "Red!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 6109; Whisper 1 ord, 0.99 en
+- speech job 7c592ca8: pn-blue-0.mp3 "Blue!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 3717; Whisper 1 ord, 0.98 en
+- speech job 06354d70: pn-yellow-0.mp3 "Yellow!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 4742; Whisper 1 ord, 0.99 en
+- speech job 63b2c7a1: pn-green-0.mp3 "Green!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 7931; Whisper 1 ord, 1 en
+- speech job d73a0a71: ch-sit-0.mp3 "Sit down!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 9252; Whisper 1 ord, 1 en
+- speech job 90bfd1c1: cn-intro-0.mp3 "Grab the coins!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 5559; Whisper 1 ord, 1 en
+- speech job 314a5c12: bm-intro-0.mp3 "Bombs away!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 7472; Whisper 1 ord, 1 en
+- speech job a61995ce: pl-intro-0.mp3 "Don't pick the bomb!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 4943; Whisper 1 ord, 1 en
+- speech job 9cbb6a8a: sm-intro-0.mp3 "Simon says!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 2543; Whisper 1 ord, 1 en
+- speech job 4d4def52: sm-notred-0.mp3 "Not red!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 9708; Whisper 1 ord, 1 en
+- speech job 65ed21bf: sm-notblue-0.mp3 "Not blue!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 8412; Whisper 1 ord, 1 en
+- speech job 2291f7fb: sm-dont-0.mp3 "Don't touch!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 3630; Whisper 1 ord, 1 en
+- speech job 12b0f47f: pp-intro-0.mp3 "Follow the pipes!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 2981; Whisper 1 ord, 1 en
+- speech job 568deb58: tg-intro-0.mp3 "Pull!" chatterbox en (indbygget stemme) exaggeration 1 temperature 0.7 seed 3030; Whisper 1 ord, 0.99 en
+- speech job e179890f: rp-intro-0.mp3 "Keep your balance!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 8036; Whisper 1 ord, 1 en
+- speech job 792bb25f: bk-intro-0.mp3 "Here comes the bomber!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 5718; Whisper 1 ord, 1 en

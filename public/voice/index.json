@@ -1,0 +1,144 @@
+{
+  "count-3": [
+    "count-3-0.mp3"
+  ],
+  "count-2": [
+    "count-2-0.mp3"
+  ],
+  "count-1": [
+    "count-1-0.mp3"
+  ],
+  "go": [
+    "go-0.mp3",
+    "go-1.mp3"
+  ],
+  "round": [
+    "round-0.mp3",
+    "round-1.mp3"
+  ],
+  "winner": [
+    "winner-0.mp3",
+    "winner-1.mp3"
+  ],
+  "quiz-intro": [
+    "quiz-intro-0.mp3"
+  ],
+  "quiz-last": [
+    "quiz-last-0.mp3"
+  ],
+  "tr-clues": [
+    "tr-clues-0.mp3"
+  ],
+  "tr-vote": [
+    "tr-vote-0.mp3"
+  ],
+  "tr-caught": [
+    "tr-caught-0.mp3"
+  ],
+  "tr-escaped": [
+    "tr-escaped-0.mp3"
+  ],
+  "gran-hm": [
+    "gran-hm-0.mp3",
+    "gran-hm-1.mp3"
+  ],
+  "gran-look": [
+    "gran-look-0.mp3",
+    "gran-look-1.mp3"
+  ],
+  "gran-caught": [
+    "gran-caught-0.mp3",
+    "gran-caught-1.mp3",
+    "gran-caught-2.mp3"
+  ],
+  "gran-done": [
+    "gran-done-0.mp3"
+  ],
+  "cats-intro": [
+    "cats-intro-0.mp3"
+  ],
+  "sb-intro": [
+    "sb-intro-0.mp3"
+  ],
+  "sb-out": [
+    "sb-out-0.mp3"
+  ],
+  "sb-red": [
+    "sb-red-0.mp3"
+  ],
+  "sb-blue": [
+    "sb-blue-0.mp3"
+  ],
+  "dg-intro": [
+    "dg-intro-0.mp3"
+  ],
+  "dg-up": [
+    "dg-up-0.mp3"
+  ],
+  "dg-all": [
+    "dg-all-0.mp3"
+  ],
+  "rc-intro": [
+    "rc-intro-0.mp3"
+  ],
+  "rc-last": [
+    "rc-last-0.mp3"
+  ],
+  "dn-intro": [
+    "dn-intro-0.mp3"
+  ],
+  "dn-end": [
+    "dn-end-0.mp3"
+  ],
+  "pn-intro": [
+    "pn-intro-0.mp3"
+  ],
+  "pn-red": [
+    "pn-red-0.mp3"
+  ],
+  "pn-blue": [
+    "pn-blue-0.mp3"
+  ],
+  "pn-yellow": [
+    "pn-yellow-0.mp3"
+  ],
+  "pn-green": [
+    "pn-green-0.mp3"
+  ],
+  "ch-sit": [
+    "ch-sit-0.mp3"
+  ],
+  "cn-intro": [
+    "cn-intro-0.mp3"
+  ],
+  "bm-intro": [
+    "bm-intro-0.mp3"
+  ],
+  "pl-intro": [
+    "pl-intro-0.mp3"
+  ],
+  "sm-intro": [
+    "sm-intro-0.mp3"
+  ],
+  "sm-notred": [
+    "sm-notred-0.mp3"
+  ],
+  "sm-notblue": [
+    "sm-notblue-0.mp3"
+  ],
+  "sm-dont": [
+    "sm-dont-0.mp3"
+  ],
+  "pp-intro": [
+    "pp-intro-0.mp3"
+  ],
+  "tg-intro": [
+    "tg-intro-0.mp3"
+  ],
+  "rp-intro": [
+    "rp-intro-0.mp3"
+  ],
+  "bk-intro": [
+    "bk-intro-0.mp3"
+  ]
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<!-- Model-tjek: dev.html?m=penguin,seal viser hver model fra fire sider (0°, 90°, 180°, 270°) med en rød pil mod
+     +z (spillets "forlæns": den vej, et dyr kigger, når face = 0), så næsen skal pege som pilen. Sæt yaw i
+     models.json med: node tools/prepare.mjs <navn> --yaw <grader>. Ikke linket fra spillet. -->
+<html><head><meta charset="utf-8"><title>Model-tjek</title>
+<style>body{margin:0;background:#ddd;font:14px system-ui}canvas{display:block}</style>
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.js", "three/addons/": "./vendor/addons/" } }</script>
+</head><body><script type="module">
+import * as THREE from 'three';
+import { loadModel } from './src/assets.js';
+const names = (new URLSearchParams(location.search).get('m') || 'penguin').split(',');
+const W = 1000, RH = 220, H = RH * names.length;
+const r = new THREE.WebGLRenderer({ antialias: true }); r.setSize(W, H); document.body.appendChild(r.domElement);
+r.setScissorTest(true);
+const cam = new THREE.PerspectiveCamera(35, (W / 4) / RH, 0.1, 50);
+// Alle hentes først: canvas'et tømmes mellem frames, så tegningen skal ske i én omgang.
+const objs = await Promise.all(names.map((n) => loadModel(n, 1)));
+for (const [row, name] of names.entries()) {
+  const scene = new THREE.Scene(); scene.background = new THREE.Color(row % 2 ? 0xd4d4d4 : 0xe0e0e0);
+  scene.add(new THREE.HemisphereLight(0xffffff, 0x777777, 2.5));
+  const d = new THREE.DirectionalLight(0xffffff, 1.5); d.position.set(2, 3, 2); scene.add(d);
+  if (objs[row]) scene.add(objs[row]);
+  scene.add(new THREE.ArrowHelper(new THREE.Vector3(0, 0, 1), new THREE.Vector3(0, 0.02, 0), 0.9, 0xff0000));
+  [0, 90, 180, 270].forEach((deg, i) => {
+    const a = deg * Math.PI / 180;
+    cam.position.set(Math.sin(a) * 3, 1.3, Math.cos(a) * 3); cam.lookAt(0, 0.45, 0);
+    const y = H - (row + 1) * RH;
+    r.setViewport(i * W / 4, y, W / 4, RH); r.setScissor(i * W / 4, y, W / 4, RH); r.render(scene, cam);
+  });
+}
+document.title = 'klar';
+</script></body></html>

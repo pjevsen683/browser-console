@@ -1,0 +1,20 @@
+{
+  "name": "konsol",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Konsol - telefonen er spillekonsollen, fjernsynet er skærmen, og alle andre telefoner er controllere. PWA.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-force-exit test/*.test.js",
+    "e2e": "node tools/e2e.mjs && node tools/e2e-draw.mjs && node tools/e2e-dance.mjs"
+  },
+  "dependencies": {
+    "three": "0.169.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.1.0",
+    "puppeteer-core": "^24.0.0",
+    "qrcode-generator": "2.0.4"
+  }
+}

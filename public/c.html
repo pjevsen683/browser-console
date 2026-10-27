@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Konsol-controller</title>
+<meta name="theme-color" content="#0a1020">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Controller">
+<link rel="manifest" href="c.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<style>
+  :root { --me: #7cc4ff; --ink: #f4f7ff; --dim: #9fb0d0; --card: #18233d; --edge: #2b3b61;
+    --safe-l: env(safe-area-inset-left, 0px); --safe-r: env(safe-area-inset-right, 0px); }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0a1020; color: var(--ink);
+    font: 16px/1.4 ui-rounded, system-ui, -apple-system, "Segoe UI", sans-serif;
+    user-select: none; -webkit-user-select: none; touch-action: none; overscroll-behavior: none; }
+  .screen { position: fixed; inset: 0; display: none; }
+  body[data-screen="join"] #join, body[data-screen="pad"] #pad, body[data-screen="msg"] #msg { display: grid; }
+  #join, #msg { place-items: center; padding: 16px; touch-action: auto; }
+  .card { width: min(420px, 100%); background: var(--card); border: 1px solid var(--edge); border-radius: 18px; padding: 20px; text-align: center; }
+  h1 { margin: 0 0 .4em; font-size: 1.7rem; }
+  input { width: 100%; font: inherit; font-size: 1.3rem; padding: .5em .7em; border-radius: 12px; border: 1px solid var(--edge);
+    background: #0a1020; color: var(--ink); margin: .3em 0; text-align: center; user-select: text; -webkit-user-select: text; }
+  #code-in { text-transform: uppercase; letter-spacing: .3em; font-weight: 800; }
+  button.big { width: 100%; font: inherit; font-size: 1.2rem; font-weight: 800; padding: .7em; border: 0; border-radius: 12px; background: #7cc4ff; color: #06203a; margin-top: .5em; }
+  #pad { grid-template-columns: 1fr 1fr; background: radial-gradient(90% 120% at 50% 0%, color-mix(in srgb, var(--me) 28%, #0a1020), #0a1020 75%); }
+  #bar { position: fixed; top: 0; left: 0; right: 0; display: flex; gap: 10px; align-items: center; font-weight: 700; pointer-events: none;
+    padding: 8px calc(var(--safe-r) + 14px) 0 calc(var(--safe-l) + 14px); }
+  #bar i { width: 16px; height: 16px; border-radius: 50%; background: var(--me); }
+  #link { margin-left: auto; color: var(--dim); font-size: .9rem; font-weight: 400; }
+  #text { position: fixed; left: 0; right: 0; top: 30%; text-align: center; font-size: 1.5rem; font-weight: 900; pointer-events: none; padding: 0 20%; }
+  #score { position: fixed; left: 0; right: 0; top: 50%; text-align: center; color: #ffd23f; letter-spacing: .2em; font-size: 1.3rem; pointer-events: none; }
+  #left, #right { position: relative; }
+  #hint { position: absolute; left: 0; right: 0; bottom: 18px; text-align: center; color: var(--dim); font-size: .85rem; pointer-events: none; }
+  #base { position: absolute; width: 150px; height: 150px; margin: -75px 0 0 -75px; border-radius: 50%; display: none; pointer-events: none;
+    border: 2px solid rgba(255, 255, 255, .3); background: rgba(255, 255, 255, .08); }
+  #knob { position: absolute; left: 45px; top: 45px; width: 60px; height: 60px; border-radius: 50%; background: var(--me); box-shadow: 0 3px 10px rgba(0, 0, 0, .4); }
+  .btn { position: absolute; border-radius: 50%; border: 3px solid rgba(255, 255, 255, .55); font: inherit; font-weight: 900; color: #06203a; display: grid; place-items: center; touch-action: none; }
+  #a { width: 120px; height: 120px; right: calc(var(--safe-r) + 36px); bottom: 40px; font-size: 2.6rem; background: var(--me); box-shadow: 0 6px 0 rgba(0, 0, 0, .35); }
+  #b { width: 80px; height: 80px; right: calc(var(--safe-r) + 176px); bottom: 24px; font-size: 1.8rem; background: #c9d4ea; box-shadow: 0 5px 0 rgba(0, 0, 0, .35); }
+  .btn.on { transform: translateY(4px); box-shadow: none; }
+  /* Layouts (konsollen bestemmer): pad = pind + A/B; choices, text og draw fylder skærmen under linjen. */
+  .lay { display: none; position: fixed; left: calc(var(--safe-l) + 14px); right: calc(var(--safe-r) + 14px); top: 70px; bottom: 14px; }
+  body[data-layout="choices"] #choices, body[data-layout="text"] #textin, body[data-layout="draw"] #drawbox, body[data-layout="beat"] #beat { display: grid; }
+  body:not([data-layout="pad"]):not([data-layout="tilt"]) #left, body:not([data-layout="pad"]):not([data-layout="tilt"]) #right,
+  body:not([data-layout="pad"]):not([data-layout="tilt"]) #text, body:not([data-layout="pad"]):not([data-layout="tilt"]) #score { display: none; }
+  /* tilt = pad + hældning: knappen slår hældning til; så viser venstre side et vaterpas i stedet for pinden */
+  #tiltbar { display: none; position: fixed; top: 34px; left: 0; right: 0; justify-content: center; gap: 8px; z-index: 2; }
+  body[data-layout="tilt"] #tiltbar { display: flex; }
+  #tiltbar button { border: 0; border-radius: 10px; font: inherit; font-weight: 800; padding: .35em .9em; background: #7cc4ff; color: #06203a; }
+  #tiltbar button[hidden] { display: none; }
+  #level { display: none; position: absolute; left: 50%; top: 50%; width: 150px; height: 150px; margin: -75px 0 0 -75px; border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, .35); pointer-events: none; }
+  #level i { position: absolute; left: 50%; top: 50%; width: 40px; height: 40px; margin: -20px 0 0 -20px; border-radius: 50%; background: var(--me); }
+  body.tilting #level { display: block; }
+  body.tilting #hint, body.tilting #base { display: none !important; }
+  #prompt { position: fixed; left: 0; right: 0; top: 34px; text-align: center; font-weight: 800; font-size: 1.1rem; pointer-events: none; }
+  body[data-layout="pad"] #prompt, body[data-layout="tilt"] #prompt { display: none; }
+  #choices { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+  #choices button { border: 0; border-radius: 16px; font: inherit; font-size: 1.4rem; font-weight: 900; color: #06203a;
+    background: var(--c, #c9d4ea); box-shadow: 0 5px 0 rgba(0, 0, 0, .35); }
+  #choices.many { grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  #choices.many button { font-size: 1rem; border-radius: 12px; }
+  #choices.locked button { opacity: .35; }
+  #choices.locked button.chosen { opacity: 1; outline: 4px solid #fff; }
+  #textin { grid-template-columns: 1fr auto; align-content: center; gap: 10px; touch-action: auto; }
+  #textin input { margin: 0; }
+  #textin button, #drawbox button { border: 0; border-radius: 12px; font: inherit; font-weight: 800; padding: 0 1.2em; background: #7cc4ff; color: #06203a; }
+  #drawbox { grid-template-columns: 1fr auto; grid-template-rows: 1fr 1fr; gap: 10px; }
+  #draw { grid-row: 1 / span 2; width: 100%; height: 100%; background: #fff; border-radius: 12px; touch-action: none; }
+  /* Dance Beat: 4 pileknapper i bredden, samme farver som banerne på fjernsynet. */
+  #beat { grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  #beat button { border: 0; border-radius: 18px; font: inherit; font-size: 3rem; font-weight: 900; color: #06203a; background: var(--c);
+    box-shadow: 0 6px 0 rgba(0, 0, 0, .35); touch-action: none; }
+  #beat button.on { transform: translateY(5px); box-shadow: none; filter: brightness(1.25); }
+  #turn { position: fixed; inset: 0; display: none; place-items: center; background: #0a1020; font-size: 1.4rem; text-align: center; z-index: 9; }
+  @media (orientation: portrait) { body[data-screen="pad"] #turn { display: grid; } }
+</style>
+</head>
+<body data-screen="join" data-layout="pad">
+<section class="screen" id="join"><div class="card">
+  <h1>🎮 Join the game</h1>
+  <input id="code-in" maxlength="4" placeholder="CODE" autocomplete="off" autocapitalize="characters">
+  <input id="name-in" maxlength="12" placeholder="Your name" autocomplete="nickname">
+  <button class="big" id="go">Join</button>
+</div></section>
+<section class="screen" id="pad">
+  <div id="bar"><i></i><span id="me"></span><span id="link"></span></div>
+  <div id="left"><div id="base"><div id="knob"></div></div><div id="hint">Drag here</div><div id="level"><i></i></div></div>
+  <div id="tiltbar"><button id="tilt-on">🎯 Use tilt</button><button id="tilt-zero" hidden>Recenter</button><button id="tilt-flip" hidden>Flip</button><button id="tilt-off" hidden>Stick</button></div>
+  <div id="right"><button class="btn" id="b">B</button><button class="btn" id="a">A</button></div>
+  <div id="text">Connecting …</div><div id="score"></div>
+  <div id="prompt"></div>
+  <div class="lay" id="choices"></div>
+  <form class="lay" id="textin"><input id="text-in" maxlength="40" autocomplete="off" placeholder="Type here"><button>Send</button></form>
+  <div class="lay" id="beat"><button style="--c:#ff5fa2">◀</button><button style="--c:#4fc3ff">▲</button><button style="--c:#5ee07a">▼</button><button style="--c:#ffb03a">▶</button></div>
+  <div class="lay" id="drawbox"><canvas id="draw"></canvas><button type="button" id="clear">Clear</button><button type="button" id="done">Done</button></div>
+</section>
+<section class="screen" id="msg"><div class="card"><h1 id="msg-t"></h1><button class="big" id="again">Try again</button></div></section>
+<div id="turn">📱↻<br>Turn your phone sideways</div>
+<script type="module" src="./src/controller/main.js"></script>
+</body>
+</html>

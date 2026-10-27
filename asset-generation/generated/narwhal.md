@@ -1,0 +1,8 @@
+# narwhal
+
+Lavet på den lokale asset-server (http://10.1.0.21:8200; TRELLIS.2 MIT, Z-Image Turbo Apache 2.0 -- fri brug).
+
+- 2026-10-23 13:40 image job 4981293f, kind=prop, seed 1, 25 s: "a chubby cartoon narwhal sitting upright on its tail fin, blue-grey spotted body, pale belly, one long straight spiral tusk pointing up from its forehead, small front flippers, big round eyes, 3D render, soft clay shading, Pixar style toy figure, cute stylized cartoon game asset, soft pastel colors, clean simple shapes, isometric three-quarter view from the front and 30 degrees above, the whole object visible"
+- 2026-10-23 13:41 image job 4fda9f85, kind=prop, seed 2, 25 s: "a chubby cartoon narwhal sitting upright on its tail fin, blue-grey spotted body, pale belly, one long straight spiral tusk pointing up from its forehead, small front flippers, big round eyes, 3D render, soft clay shading, Pixar style toy figure, cute stylized cartoon game asset, soft pastel colors, clean simple shapes, isometric three-quarter view from the front and 30 degrees above, the whole object visible"
+- 2026-10-23 13:41 image job df5135a0, kind=prop, seed 3, 24 s: "a chubby cartoon narwhal sitting upright on its tail fin, blue-grey spotted body, pale belly, one long straight spiral tusk pointing up from its forehead, small front flippers, big round eyes, 3D render, soft clay shading, Pixar style toy figure, cute stylized cartoon game asset, soft pastel colors, clean simple shapes, isometric three-quarter view from the front and 30 degrees above, the whole object visible"
+- 2026-10-23 13:46 model job 53a37100 fra 4981293f, {"res":1024,"faces":8000,"tex":1024,"remesh":384}, 207 s -> narwhal.glb

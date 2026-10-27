@@ -1,0 +1,98 @@
+{
+  "penguin": {
+    "file": "penguin.glb"
+  },
+  "seal": {
+    "file": "seal.glb"
+  },
+  "reindeer": {
+    "file": "reindeer.glb"
+  },
+  "arcticfox": {
+    "file": "arcticfox.glb"
+  },
+  "hare": {
+    "file": "hare.glb"
+  },
+  "eagle": {
+    "file": "eagle.glb"
+  },
+  "polarbear": {
+    "file": "polarbear.glb"
+  },
+  "puffin": {
+    "file": "puffin.glb"
+  },
+  "walrus": {
+    "file": "walrus.glb"
+  },
+  "muskox": {
+    "file": "muskox.glb",
+    "yaw": -90
+  },
+  "narwhal": {
+    "file": "narwhal.glb"
+  },
+  "lemming": {
+    "file": "lemming.glb"
+  },
+  "table": {
+    "file": "table.glb",
+    "tint": [
+      0.62,
+      0.45,
+      0.36
+    ]
+  },
+  "owner": {
+    "file": "owner.glb"
+  },
+  "cat": {
+    "file": "cat.glb",
+    "yaw": -90,
+    "tint": [
+      0.92,
+      0.88,
+      0.62
+    ]
+  },
+  "mug": {
+    "file": "mug.glb"
+  },
+  "vase": {
+    "file": "vase.glb"
+  },
+  "cactus": {
+    "file": "cactus.glb"
+  },
+  "teapot": {
+    "file": "teapot.glb"
+  },
+  "cake": {
+    "file": "cake.glb"
+  },
+  "robot": {
+    "file": "robot.glb"
+  },
+  "books": {
+    "file": "books.glb"
+  },
+  "clock": {
+    "file": "clock.glb"
+  },
+  "globe": {
+    "file": "globe.glb"
+  },
+  "lamp": {
+    "file": "lamp.glb"
+  },
+  "piggy": {
+    "file": "piggy.glb"
+  },
+  "trophy": {
+    "file": "trophy.glb"
+  },
+  "yarn": {
+    "file": "yarn.glb"
+  }
+}

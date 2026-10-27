@@ -1,0 +1,9 @@
+# eagle
+
+Lavet på den lokale asset-server (http://10.1.0.21:8200; TRELLIS.2 MIT, Z-Image Turbo Apache 2.0 -- fri brug).
+
+- 2026-10-18 11:55 image job 4d5da397, kind=prop, seed 1, 24 s: "a chubby cartoon white-tailed eagle standing upright, wings folded, yellow beak and feet, 3D render, soft clay shading, Pixar style toy figure, cute stylized cartoon game asset, soft pastel colors, clean simple shapes, isometric three-quarter view from the front and 30 degrees above, the whole object visible"
+- 2026-10-18 11:56 image job 886febc7, kind=prop, seed 2, 24 s: "a chubby cartoon white-tailed eagle standing upright, wings folded, yellow beak and feet, 3D render, soft clay shading, Pixar style toy figure, cute stylized cartoon game asset, soft pastel colors, clean simple shapes, isometric three-quarter view from the front and 30 degrees above, the whole object visible"
+- 2026-10-18 11:58 image job cd570406, kind=prop, seed 3, 24 s: "a chubby cartoon white-tailed sea eagle standing upright, dark brown feathered body and wings, pale cream head, white tail feathers, big hooked yellow beak, yellow talons, 3D render, soft clay shading, Pixar style toy figure, cute stylized cartoon game asset, soft pastel colors, clean simple shapes, isometric three-quarter view from the front and 30 degrees above, the whole object visible"
+- 2026-10-18 11:59 image job 613806da, kind=prop, seed 4, 25 s: "a chubby cartoon white-tailed sea eagle standing upright, dark brown feathered body and wings, pale cream head, white tail feathers, big hooked yellow beak, yellow talons, 3D render, soft clay shading, Pixar style toy figure, cute stylized cartoon game asset, soft pastel colors, clean simple shapes, isometric three-quarter view from the front and 30 degrees above, the whole object visible"
+- 2026-10-18 15:18 eagle.glb = job ae1a931b (seed 42), trods form-tjek 5.13 %: set fra fire sider i dev.html og hel
