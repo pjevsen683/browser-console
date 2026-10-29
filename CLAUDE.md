@@ -9,7 +9,7 @@ Offentligt fra 2026-10-16.
 
 **Adresse:** https://konsol.mobil.peter87.dk/ (controller: `/c.html?g=KODE`)
 
-Spillene (alle 2–12 spillere):
+Spillene (2–12 spillere; Tower Stack og Sumo Survival kan også spilles alene):
 
 | spil | mappe | kort |
 |---|---|---|
@@ -34,8 +34,12 @@ Spillene (alle 2–12 spillere):
 | **Dance Beat** | `games/dance/` | pile ruller mod en linje; tryk pilen på telefonen i takt (Perfect/Great/Good, kæde); én sang pr. spil |
 | **Quiz Night** | `games/quiz/` | 10 spørgsmål med billede og oplæsning; svar på telefonen; fart giver point |
 | **Who's the Traitor?** (4–12) | `games/traitor/` | hemmelige ord; én har et andet ord; ét ord hver, så stemmer alle; 3 runder |
+| **Tower Stack** (1–12) | `games/stack/` | A taber den glidende klods; det overhængende skæres af; alle bygger samtidig; højeste tårn; rekord |
+| **Sumo Survival** (1–6) | `games/waves/` | sammen mod bølger af bøller på isflagen (Sumo-fysikken); flest bølger; rekord |
 
-Lobbyen har også et "Random game"-kort.
+Lobbyen viser spillene i et gitter (6 kolonner, `COLS` i `lobby-state.js`; pinden op/ned flytter en række) og har
+også et "Random game"-kort. Rekorder (Tower Stack, Sumo Survival) gemmes i konsollens `localStorage`
+(`games/common/record.js`); ingen point på tværs af spil.
 
 Design og plan: `docs/superpowers/specs/2026-10-16-konsol-design.md` og
 `docs/superpowers/plans/2026-10-16-konsol.md`. **Planen for 9 spil mere:**
@@ -116,6 +120,9 @@ Konsollen har `window.__konsol` og controlleren `window.__pad` til tests.
 | `public/src/games/tug/` | Tug of War: `rules.js`, `ai.js` (**testet**), `view.js`, `index.js` |
 | `public/src/input/tilt.js` | telefonens hældning som pind (layout `tilt`) — **testet** |
 | `public/src/games/rope/`, `bomber/` | fase 8: `rules.js` (+ `ai.js` i rope) **testet**, `view.js` (rope), `index.js`; Bomber King genbruger `bombs/view.js` og `bombs/ai.js` |
+| `public/src/games/stack/` | Tower Stack: `rules.js`, `ai.js` (**testet**), `index.js` (lærred i `hud.layer`) |
+| `public/src/games/waves/` | Sumo Survival: `rules.js`, `ai.js` (**testet**), `index.js`; Sumo-fysikken og `sumo/view.js` (skjuler dyr, der ikke er med) |
+| `public/src/games/common/record.js` | rekord pr. spil i `localStorage` — **testet** |
 | `public/src/games/racer/` | Mini Racers: `track.js` (lukket sløjfe, bord, ting), `physics.js`, `rules.js`, `ai.js` (**testet**), `view.js` (biler af primitiver), `index.js`; tingene er Kattekaos' modeller |
 | `public/src/games/dance/` | Dance Beat: `chart.js` (koreografi, bedømmelse), `rules.js` (tryk, Miss, `tapTime`), `ai.js` (**testet**), `view.js` (scene, dyr), `index.js` (pilebane på et lærred i `hud.layer`); sange og takter i `public/data/dance.json` |
 | `public/src/games/sumo/physics.js` | isflagen: glid, skub, stød, fald, smeltning — **testet** |
@@ -212,7 +219,7 @@ oplæsning (Chatterbox `en`, Whisper ≥ 0,75) pr. spørgsmål. Et spil med data
 `auto`/`prewarm` venter på.
 
 Musik (ACE-Step, `node tools/music.mjs`, prompts i `asset-generation/music.json`, 96 kbit/s):
-`lobby`, `sumo`, `colors`, `potato`, `race`, `cats`, `snowball`, `draw`, `racer`, `panic`, `chairs`, `coins`, `bombs`, `plunger`, `simon`, `pipes`, `tug`, `rope`, `bomber` — afspillet i løkke med fade (`audio.music`).
+`lobby`, `sumo`, `colors`, `potato`, `race`, `cats`, `snowball`, `draw`, `racer`, `panic`, `chairs`, `coins`, `bombs`, `plunger`, `simon`, `pipes`, `tug`, `rope`, `bomber`, `stack`, `waves` — afspillet i løkke med fade (`audio.music`).
 Dance Beats 4 sange (`dance-disco`, `dance-pop`, `dance-latin`, `dance-chip`, 80 s, fast tempo) spilles én gang af
 `audio.song`; spillet har `music: false`. Takterne: `python3 tools/beats.py` (librosa på udviklingsmaskinen) søger det
 jævne gitter, der rammer flest anslag — beat-trackeren hoppede mellem slag og efterslag i to af sangene — og skriver

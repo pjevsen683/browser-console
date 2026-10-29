@@ -122,7 +122,7 @@ const bots = createBots(BOTS, roster, performance.now());
 
 // --- skærmene ----------------------------------------------------------------------------------------------------
 // Sidste kort i lobbyen: et tilfældigt spil blandt dem, der passer til antallet.
-const RANDOM = { id: 'random', title: 'Random game', emoji: '🎲', how: 'surprise!', minPlayers: 2, maxPlayers: 12, random: true };
+const RANDOM = { id: 'random', title: 'Random game', emoji: '🎲', how: 'surprise!', minPlayers: 1, maxPlayers: 12, random: true };
 const CARDS = [...GAMES, RANDOM];
 const lobby = createLobby(CARDS);
 if (q.has('game') && !q.has('auto')) lobby.sel = Math.max(0, CARDS.findIndex((g) => g.id === q.get('game')));   // kortet er valgt i lobbyen
@@ -199,7 +199,7 @@ function tick(now, dt, draw) {
 }
 
 if (q.has('auto')) {
-  const def = GAMES.find((g) => g.id === q.get('game')) ?? GAMES[0];
+  const def = CARDS.find((g) => g.id === q.get('game')) ?? GAMES[0];   // også 'random'
   // Spil med data (quiz, traitor) har et ready-løfte; prewarm skal først køre, når data er der.
   Promise.resolve(def.ready).then(() => {
     startGame(def);

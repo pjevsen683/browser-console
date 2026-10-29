@@ -57,6 +57,19 @@ test('pinden til højre vælger næste spil én gang pr. skub, går rundt, og nu
   assert.equal(l.sel, 0);
 });
 
+test('pinden op og ned flytter en hel række i gitteret; under sidste fulde række lander man på sidste kort', () => {
+  const G8 = Array.from({ length: 8 }, (_, i) => ({ id: `g${i}`, minPlayers: 2, maxPlayers: 12 }));
+  const l = createLobby(G8, 3), p = P('a');
+  const push = (x, y) => { p.input.x = x; p.input.y = y; lobbyStep(l, [p], 0.016); p.input.x = 0; p.input.y = 0; lobbyStep(l, [p], 0.016); };
+  push(0, 0.9); assert.equal(l.sel, 3);
+  push(0, 0.9); assert.equal(l.sel, 6);
+  push(0, 0.9); assert.equal(l.sel, 6);            // nederste række: bliver
+  push(0, -0.9); assert.equal(l.sel, 3);
+  l.sel = 5; push(0, 0.9); assert.equal(l.sel, 7); // intet kort lige under: sidste kort
+  push(0, -0.9); assert.equal(l.sel, 4);
+  l.sel = 1; push(0, -0.9); assert.equal(l.sel, 1); // øverste række: bliver
+});
+
 test('en frakoblet spiller blokerer ikke starten', () => {
   const l = createLobby(G), ps = [P('a'), P('b'), { ...P('c'), connected: false }];
   press(ps[0]); press(ps[1]); lobbyStep(l, ps, 0); quiet(ps);

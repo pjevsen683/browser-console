@@ -156,10 +156,14 @@ Quizzen er den største GPU-post (~300 job); kør den om natten. Replikkerne tje
   **Coin Grab**, **Bombs Away** (Sumo-fysikken; fælles "sidste mand står" i `common/survival.js`), **Plunger Roulette**,
   **Simon Says**, **Pipe Maze**, **Tug of War** (telefonknapper), **Tightrope** (ny platform: telefonens hældning) og
   **Bomber King** (1 mod alle). Konsollen har nu 21 spil. Specs: `docs/superpowers/specs/2026-10-25-fase-6/7/8-design.md`.
+- **Lobbyen som gitter og to spil for én** (2026-10-28, Peter: "lave 2 singleplayer spil så grid bliver komplet"):
+  **Tower Stack** (1–12) og **Sumo Survival** (1–6), med rekord i konsollens `localStorage`. 23 spil + Random = 4 fulde
+  rækker. Spec: `docs/superpowers/specs/2026-10-28-singleplayer-design.md`.
 - Næste: spil fase 3–8 i stuen; prøv Dance Beat med rigtige telefoner (se afvigelsen på resultatlisten; `?beat=<ms>`,
   hvis fjernsynet forsinker lyden).
 
 ## Afklaret
 
-- Ingen børneudgave, altid 12 spillere, ingen point på tværs (Peter, 2026-10-25).
+- Ingen børneudgave, altid 12 spillere, ingen point på tværs (Peter, 2026-10-25). Undtagelse: Tower Stack og Sumo
+  Survival kan spilles alene og husker en rekord pr. spil (Peter bad om singleplayer, 2026-10-28).
 - Alt, der skal læses, er på engelsk; konsollen og Sumo er oversat samme dag, og dommeren taler engelsk.

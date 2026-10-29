@@ -27,7 +27,8 @@ export function createView(players) {
       const k = w.radius / R0;
       floe.scale.set(k, 1, k);
       floe.position.y = -0.35 + Math.sin(time * 0.8) * 0.03;
-      for (const a of w.animals) { const act = actors.get(a.id); if (act) syncActor(act, a); }
+      for (const act of actors.values()) act.root.visible = false;   // Sumo Survival: bøller, der ikke er med i bølgen
+      for (const a of w.animals) { const act = actors.get(a.id); if (act) { act.root.visible = true; syncActor(act, a); } }
       sea.update(time);
       const dist = 9 + w.radius * 1.6;
       camera.position.set(0, dist * 0.85, dist * 0.75);

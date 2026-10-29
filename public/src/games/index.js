@@ -20,5 +20,7 @@ import pipes from './pipes/index.js';
 import tug from './tug/index.js';
 import rope from './rope/index.js';
 import bomber from './bomber/index.js';
+import stack from './stack/index.js';
+import waves from './waves/index.js';
 
-export const GAMES = [sumo, race, racer, potato, panic, chairs, coins, bombs, bomber, cats, snowball, tug, rope, quiz, plunger, simon, pipes, draw, dance, traitor, colors];
+export const GAMES = [sumo, race, racer, potato, panic, chairs, coins, bombs, bomber, cats, snowball, tug, rope, quiz, plunger, simon, pipes, draw, dance, traitor, colors, stack, waves];

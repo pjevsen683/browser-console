@@ -68,6 +68,12 @@ const LINES = {
   'tg-intro': [['Pull!', 1.0]],
   'rp-intro': [['Keep your balance!', 0.8]],
   'bk-intro': [['Here comes the bomber!', 0.9]],
+  'st-intro': [['Stack it high!', 0.8]],
+  'st-perfect': [['Perfect!', 0.9]],
+  'sv-intro': [['Survive the waves!', 0.9]],
+  'sv-wave': [['Here they come!', 0.9], ['Next wave!', 0.8]],
+  'sv-clear': [['Wave cleared!', 0.8]],
+  'record': [['New record!', 1.0]],
 };
 const TAKES = 5;
 const LANG = 'en';

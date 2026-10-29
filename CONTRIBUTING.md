@@ -5,7 +5,8 @@ lobby, the countdown, players joining and leaving, and the result screen. Your g
 
 ## House rules
 
-- **2–12 players.** Every game must work with 2 and with 12 (`minPlayers: 2, maxPlayers: 12`; a few games need 4+).
+- **2–12 players.** Every game must work with 2 and with 12 (`minPlayers: 2, maxPlayers: 12`; a few games need 4+,
+  and Tower Stack and Sumo Survival also work alone). The lobby shows games in a 6-column grid.
 - **English** for everything players see or hear. Short texts, because they're read from the sofa.
 - **No points carry over between games**, and there is no kids' mode.
 - **Every game has a bot**, so it can be played and tested with `?bots=N` and no phones.

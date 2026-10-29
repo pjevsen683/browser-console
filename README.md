@@ -6,9 +6,10 @@ too). Everyone is on the same wifi. No app store, no build step.
 
 Live: https://konsol.mobil.peter87.dk/ (controller: `/c.html?g=CODE`)
 
-There are 21 games so far: Ice Floe Sumo, Penguin Race, Mini Racers, Hot Potato, Color Panic, Musical Chairs, Coin Grab,
+There are 23 games so far: Ice Floe Sumo, Penguin Race, Mini Racers, Hot Potato, Color Panic, Musical Chairs, Coin Grab,
 Bombs Away, Tug of War, Bomber King, Tightrope, Cat Chaos, Snowball Fight, Color Rush, Plunger Roulette, Simon Says,
-Pipe Maze, Draw & Guess, Dance Beat, Quiz Night and Who's the Traitor?
+Pipe Maze, Draw & Guess, Dance Beat, Quiz Night, Who's the Traitor?, Tower Stack and Sumo Survival (the last two can
+also be played alone and keep a local high score).
 
 **Want to add a game?** Read [CONTRIBUTING.md](CONTRIBUTING.md).
 

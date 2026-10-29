@@ -1,4 +1,4 @@
-// Lobbyens DOM: spilkort, ti pladser og nedtællingen. Tegnes kun om, når noget er ændret.
+// Lobbyens DOM: spilkort i et gitter, ti pladser og nedtællingen. Tegnes kun om, når noget er ændret.
 import { esc } from './hud.js';
 
 const LINK = { direct: '⚡', relay: '📶', pad: '🎮', bot: '🤖' };
@@ -11,7 +11,7 @@ export function renderLobby(els, { games, sel, players, countdown, max }) {
   last = sig;
   const n = players.filter((p) => p.connected).length;
   els.games.innerHTML = games.map((g, i) => `<div class="gcard${i === sel ? ' sel' : ''}${n < g.minPlayers || n > g.maxPlayers ? ' dim' : ''}" data-i="${i}">`
-    + `<div class="e">${g.emoji}</div><b>${esc(g.title)}</b><small>${g.minPlayers}–${g.maxPlayers} players · ${esc(g.how)}</small></div>`).join('');
+    + `<div class="e">${g.emoji}</div><b>${esc(g.title)}</b><small>${g.minPlayers === 2 && g.maxPlayers === 12 ? '' : `${g.minPlayers === g.maxPlayers ? g.minPlayers : `${g.minPlayers}–${g.maxPlayers}`} player${g.maxPlayers > 1 ? 's' : ''} · `}${esc(g.how)}</small></div>`).join('');
   const slots = [];
   for (let i = 0; i < max; i++) {
     const p = players[i];
@@ -22,7 +22,7 @@ export function renderLobby(els, { games, sel, players, countdown, max }) {
       : '<div class="slot">free</div>');
   }
   els.slots.innerHTML = slots.join('');
-  els.games.children[sel]?.scrollIntoView?.({ block: 'nearest', inline: 'nearest' });   // karrusellen følger valget
+  els.games.children[sel]?.scrollIntoView?.({ block: 'nearest', inline: 'nearest' });   // gitteret følger valget, hvis det skulle blive højere end skærmen
   const g = games[sel], missing = g.minPlayers - n;
   els.countdown.textContent = countdown !== null ? `Starting in ${Math.ceil(countdown)} …`
     : missing > 0 ? `Need ${missing} more player${missing > 1 ? 's' : ''}`

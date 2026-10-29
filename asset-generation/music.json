@@ -21,5 +21,7 @@
   "pipes": {"seconds": 60, "bpm": 100, "keyscale": "D major", "prompt": "Curious puzzle game music, bubbly synth plucks, water drops, gentle marimba, light bass, thinking music, instrumental loop"},
   "tug": {"seconds": 60, "bpm": 150, "keyscale": "G minor", "prompt": "Intense comedic strongman music, heavy stomping drums, brass fanfare stabs, fast tuba bass, crowd energy, epic but silly tug of war, instrumental loop"},
   "rope": {"seconds": 60, "bpm": 90, "keyscale": "Bb major", "prompt": "Wobbly suspenseful circus music for a tightrope walk, slow oompah tuba, tiptoe clarinet, nervous snare rolls, gusty wind chimes, comedic tension, instrumental loop"},
-  "bomber": {"seconds": 60, "bpm": 136, "keyscale": "F minor", "prompt": "Comedic aerial bombing party game music, propeller plane drone, cartoon brass fanfares, marching drums, playful villain theme, fast and chaotic, instrumental loop"}
+  "bomber": {"seconds": 60, "bpm": 136, "keyscale": "F minor", "prompt": "Comedic aerial bombing party game music, propeller plane drone, cartoon brass fanfares, marching drums, playful villain theme, fast and chaotic, instrumental loop"},
+  "stack": {"seconds": 60, "bpm": 110, "keyscale": "D major", "prompt": "Calm focused puzzle game music, plucky marimba and soft synth bass, gentle ticking percussion, light and concentrated, building tower, instrumental loop"},
+  "waves": {"seconds": 60, "bpm": 140, "keyscale": "E minor", "prompt": "Intense arcade survival game music, driving taiko drums and bold brass stabs, icy synth arpeggios, heroic last stand on an ice floe, energetic and tense, instrumental loop"}
 }

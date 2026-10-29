@@ -26,17 +26,21 @@
   .screen { position: absolute; inset: 0; display: none; }
   body[data-screen="play"] #game, body[data-screen="play"] #hud, body[data-screen="result"] #result { display: block; }
 
-  #lobby { padding: 1.1em 1.3em; grid-template-columns: 1fr 9.5em; grid-template-rows: auto auto 1fr auto; gap: .6em 1.2em; }
+  #lobby { padding: 1.1em 1.3em; grid-template-columns: 1fr 9.5em; grid-template-rows: auto 1fr auto auto; gap: .6em 1.2em; }
   body[data-screen="lobby"] #lobby { display: grid; }
   #lobby h1 { grid-column: 1; margin: 0; font-size: 1.8em; letter-spacing: -.03em; }
-  #games { grid-column: 1; display: flex; gap: .5em; overflow: hidden; padding: .15em; scroll-behavior: smooth; }
-  .gcard { flex: 0 0 8.6em; padding: .45em .7em; border-radius: .6em; background: var(--card); border: .1em solid var(--edge); cursor: pointer; }
+  /* Spillene i et gitter (COLS i lobby-state.js); spillerpladserne nederst. */
+  #games { grid-column: 1; grid-row: 2; display: grid; grid-template-columns: repeat(6, 1fr); grid-auto-rows: minmax(3.9em, 1fr); gap: .4em;
+    overflow: hidden; padding: .15em; min-height: 0; }
+  .gcard { padding: .3em .5em; border-radius: .5em; background: var(--card); border: .1em solid var(--edge); cursor: pointer;
+    display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: .35em; align-items: center; align-content: center; overflow: hidden; }
   .gcard.sel { border-color: var(--accent); box-shadow: 0 0 0 .1em var(--accent); }
   .gcard.dim { opacity: .45; }
-  .gcard .e { font-size: 1.5em; line-height: 1.1; }
-  .gcard b { display: block; font-size: .85em; }
-  .gcard small { color: var(--dim); font-size: .55em; }
-  #slots { grid-column: 1; display: grid; grid-template-columns: repeat(6, 1fr); grid-auto-rows: 2.6em; gap: .4em; align-content: start; }
+  .gcard .e { font-size: 1.3em; line-height: 1.1; }
+  .gcard b { font-size: .7em; line-height: 1.15; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .gcard small { grid-column: 1 / -1; align-self: start; color: var(--dim); font-size: .48em; line-height: 1.3;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  #slots { grid-column: 1; grid-row: 3; display: grid; grid-template-columns: repeat(6, 1fr); grid-auto-rows: 1.9em; gap: .35em; }
   .slot { border-radius: .5em; border: .08em dashed var(--edge); display: flex; align-items: center; gap: .4em; padding: 0 .55em; font-size: .7em; color: var(--dim); }
   .slot.p { border-style: solid; background: var(--card); color: var(--ink); }
   .slot i { width: 1.1em; height: 1.1em; border-radius: 50%; flex: none; }
@@ -50,7 +54,7 @@
   #code { font-size: 2.2em; font-weight: 900; letter-spacing: .12em; line-height: 1; }
   #url { color: var(--dim); font-size: .5em; word-break: break-all; }
   #join p { font-size: .6em; color: var(--dim); margin: .2em 0; }
-  #status { grid-column: 1; font-size: .7em; color: var(--dim); display: flex; align-items: center; gap: 1em; }
+  #status { grid-column: 1; grid-row: 4; font-size: .7em; color: var(--dim); display: flex; align-items: center; gap: 1em; }
   #countdown { font-weight: 900; color: var(--good); }
   #start { margin-left: auto; font: inherit; font-weight: 800; padding: .35em 1.1em; border-radius: .5em; border: 0; background: var(--accent); color: #06203a; cursor: pointer; }
 
@@ -111,6 +115,8 @@
   .cc-timer { position: absolute; top: 2.1em; right: .8em; font-size: 1.2em; font-weight: 800; background: rgba(5, 12, 28, .55); padding: .1em .6em; border-radius: .5em; }
   .cc-timer.look { color: #ff4d5e; }
   #hud .layer.cc-look { box-shadow: inset 0 0 0 .35em rgba(255, 77, 94, .85), inset 0 0 3em rgba(255, 77, 94, .5); }
+  .st { position: absolute; inset: 0; background: linear-gradient(#0e1a36, #1d2d55 60%, #31477a); }
+  .st canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
   .dn { position: absolute; left: 0; right: 0; bottom: 0; height: 34%; background: linear-gradient(transparent, rgba(8, 3, 18, .78) 18%); }
   .dn canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
   .dn-song { position: absolute; top: 2.1em; right: .8em; font-size: 1em; font-weight: 800; background: rgba(5, 12, 28, .55); padding: .1em .6em; border-radius: .5em; }

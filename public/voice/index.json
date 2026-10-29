@@ -140,5 +140,24 @@
   ],
   "bk-intro": [
     "bk-intro-0.mp3"
+  ],
+  "st-intro": [
+    "st-intro-0.mp3"
+  ],
+  "st-perfect": [
+    "st-perfect-0.mp3"
+  ],
+  "sv-intro": [
+    "sv-intro-0.mp3"
+  ],
+  "sv-wave": [
+    "sv-wave-0.mp3",
+    "sv-wave-1.mp3"
+  ],
+  "sv-clear": [
+    "sv-clear-0.mp3"
+  ],
+  "record": [
+    "record-0.mp3"
   ]
 }

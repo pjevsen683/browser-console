@@ -195,3 +195,10 @@
 - speech job 568deb58: tg-intro-0.mp3 "Pull!" chatterbox en (indbygget stemme) exaggeration 1 temperature 0.7 seed 3030; Whisper 1 ord, 0.99 en
 - speech job e179890f: rp-intro-0.mp3 "Keep your balance!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 8036; Whisper 1 ord, 1 en
 - speech job 792bb25f: bk-intro-0.mp3 "Here comes the bomber!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 5718; Whisper 1 ord, 1 en
+- speech job f101cfdb: st-intro-0.mp3 "Stack it high!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 3475; Whisper 1 ord, 1 en
+- speech job d837d44a: st-perfect-0.mp3 "Perfect!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 4430; Whisper 1 ord, 0.99 en
+- speech job d861bf71: sv-intro-0.mp3 "Survive the waves!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 9082; Whisper 1 ord, 1 en
+- speech job 61cefd42: sv-wave-0.mp3 "Here they come!" chatterbox en (indbygget stemme) exaggeration 0.9 temperature 0.7 seed 7593; Whisper 1 ord, 1 en
+- speech job 75f9fd53: sv-wave-1.mp3 "Next wave!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 7987; Whisper 1 ord, 1 en
+- speech job 05ce9f5e: sv-clear-0.mp3 "Wave cleared!" chatterbox en (indbygget stemme) exaggeration 0.8 temperature 0.7 seed 8572; Whisper 1 ord, 1 en
+- speech job edd17578: record-0.mp3 "New record!" chatterbox en (indbygget stemme) exaggeration 1 temperature 0.7 seed 7434; Whisper 1 ord, 0.99 en

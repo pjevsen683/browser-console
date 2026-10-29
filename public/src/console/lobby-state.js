@@ -1,9 +1,20 @@
-// Lobbyens regler, ren logik (test/lobby.test.js): A = klar, pinden vælger spil, og spillet starter START_DELAY
-// sekunder efter, at alle tilsluttede er klar -- når antallet passer til spillet.
+// Lobbyens regler, ren logik (test/lobby.test.js): A = klar, pinden vælger spil i et gitter med `cols` kolonner, og
+// spillet starter START_DELAY sekunder efter, at alle tilsluttede er klar -- når antallet passer til spillet.
 export const START_DELAY = 3;
+export const COLS = 6;
 
-export function createLobby(games) {
-  return { games, sel: 0, countdown: null };
+export function createLobby(games, cols = COLS) {
+  return { games, cols, sel: 0, countdown: null };
+}
+
+// Venstre/højre går ét kort (og rundt); op/ned en række. Er der intet kort lige under, men en række til, lander man på
+// det sidste kort.
+function move(lobby, dir) {
+  const n = lobby.games.length, c = lobby.cols;
+  if (dir === 'l' || dir === 'r') return (lobby.sel + (dir === 'r' ? 1 : -1) + n) % n;
+  if (dir === 'u') return lobby.sel - c >= 0 ? lobby.sel - c : lobby.sel;
+  const row = Math.floor(lobby.sel / c), last = Math.floor((n - 1) / c);
+  return row >= last ? lobby.sel : Math.min(lobby.sel + c, n - 1);
 }
 
 const active = (players) => players.filter((p) => p.connected);
@@ -17,10 +28,11 @@ export function lobbyStep(lobby, players, dt) {
   let changed = false;
   for (const p of players) {
     if (p.input.aPressed) p.ready = !p.ready;
-    const dir = p.input.x > 0.6 ? 1 : p.input.x < -0.6 ? -1 : 0;
+    const { x, y } = p.input;
+    const dir = x > 0.6 ? 'r' : x < -0.6 ? 'l' : y > 0.6 ? 'd' : y < -0.6 ? 'u' : null;
     if (dir && dir !== p.navDir) {
-      lobby.sel = (lobby.sel + dir + lobby.games.length) % lobby.games.length;
-      changed = true;
+      const to = move(lobby, dir);
+      if (to !== lobby.sel) { lobby.sel = to; changed = true; }
     }
     p.navDir = dir;
   }
